@@ -1,0 +1,16 @@
+C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer\bin\Debug\PaintDotNet.SystemLayer.dll
+C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer\bin\Debug\PaintDotNet.SystemLayer.pdb
+C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer\bin\Debug\PaintDotNet.SystemLayer.dll.CodeAnalysisLog.xml
+C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer\bin\Debug\PaintDotNet.SystemLayer.dll.lastcodeanalysissucceeded
+C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer\bin\Debug\Interop.WIA.dll
+C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer\bin\Debug\PaintDotNet.Base.dll
+C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer\bin\Debug\PaintDotNet.StylusReader.dll
+C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer\bin\Debug\Microsoft.Ink.dll
+C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer\bin\Debug\PaintDotNet.Base.pdb
+C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer\bin\Debug\PaintDotNet.StylusReader.pdb
+C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer\bin\Debug\Microsoft.Ink.xml
+C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer\obj\Debug\SystemLayer.csproj.AssemblyReference.cache
+C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer\obj\Debug\SystemLayer.csproj.CoreCompileInputs.cache
+C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer\obj\Debug\SystemLayer.csproj.CopyComplete
+C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer\obj\Debug\PaintDotNet.SystemLayer.dll
+C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer\obj\Debug\PaintDotNet.SystemLayer.pdb

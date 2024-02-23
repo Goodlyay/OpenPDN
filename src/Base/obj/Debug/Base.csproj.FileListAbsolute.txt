@@ -1,0 +1,8 @@
+C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Base\bin\Debug\PaintDotNet.Base.dll
+C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Base\bin\Debug\PaintDotNet.Base.pdb
+C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Base\bin\Debug\PaintDotNet.Base.dll.CodeAnalysisLog.xml
+C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Base\bin\Debug\PaintDotNet.Base.dll.lastcodeanalysissucceeded
+C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Base\obj\Debug\Base.csproj.AssemblyReference.cache
+C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Base\obj\Debug\Base.csproj.CoreCompileInputs.cache
+C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Base\obj\Debug\PaintDotNet.Base.dll
+C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Base\obj\Debug\PaintDotNet.Base.pdb

@@ -44,3 +44,8 @@ Also, you will need to make sure that mt.exe and signtool.exe are in a
 directory that is in your PATH. These are available as part of the Windows SDK
 which can be found at Microsoft's website. Usually it's sufficient to copy
 these to %SYSTEMROOT%, which is usually C:\Windows.
+
+You need to update the build args for the GeneratedCode project.
+vcvarsall needs to be path changed to Auxiliary\Build\ and changed to vcvarsamd64_x86
+cl.exe needs an updated path C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\bin\Hostx64\x86\cl.exe
+HARDCOPDED PATH IN Strings project output

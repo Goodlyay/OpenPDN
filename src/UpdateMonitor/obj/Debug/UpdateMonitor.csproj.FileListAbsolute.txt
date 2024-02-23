@@ -1,0 +1,7 @@
+C:\Users\Goodly\Documents\GitHub\OpenPDN\src\UpdateMonitor\bin\Debug\UpdateMonitor.exe.config
+C:\Users\Goodly\Documents\GitHub\OpenPDN\src\UpdateMonitor\bin\Debug\UpdateMonitor.exe
+C:\Users\Goodly\Documents\GitHub\OpenPDN\src\UpdateMonitor\bin\Debug\UpdateMonitor.pdb
+C:\Users\Goodly\Documents\GitHub\OpenPDN\src\UpdateMonitor\obj\Debug\UpdateMonitor.csproj.AssemblyReference.cache
+C:\Users\Goodly\Documents\GitHub\OpenPDN\src\UpdateMonitor\obj\Debug\UpdateMonitor.csproj.CoreCompileInputs.cache
+C:\Users\Goodly\Documents\GitHub\OpenPDN\src\UpdateMonitor\obj\Debug\UpdateMonitor.exe
+C:\Users\Goodly\Documents\GitHub\OpenPDN\src\UpdateMonitor\obj\Debug\UpdateMonitor.pdb

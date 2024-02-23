@@ -1,0 +1,11 @@
+﻿cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  Skipping... (no relevant changes detected)
+  PdnShellExtension.cpp
+  PdnShell.cpp
+  MemoryStream.cpp
+  ClassFactory.cpp
+cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  gpc.c
+ClassFactory.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+     Creating library C:\Users\Goodly\Documents\GitHub\OpenPDN\src\ShellExtension\ShellExtension_x86\Debug\ShellExtension_x86.lib and object C:\Users\Goodly\Documents\GitHub\OpenPDN\src\ShellExtension\ShellExtension_x86\Debug\ShellExtension_x86.exp
+  ShellExtension_x86.vcxproj -> C:\Users\Goodly\Documents\GitHub\OpenPDN\src\ShellExtension\ShellExtension_x86\Debug\ShellExtension_x86.dll

@@ -1,0 +1,822 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="c:\program files (x86)\microsoft visual studio\2019\community\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<FxCopReport Version="16.0">
+ <Targets>
+  <Target Name="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Effects\bin\Debug\PaintDotNet.Effects.dll">
+   <Modules>
+    <Module Name="paintdotnet.effects.dll">
+     <Namespaces>
+      <Namespace Name="PaintDotNet.Effects">
+       <Types>
+        <Type Name="AddNoiseEffect+PropertyNames" Kind="Enum" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="OnlyFlagsEnumsShouldHavePluralNames" Category="Microsoft.Naming" CheckId="CA1717" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="Breaking">
+           <Issue Certainty="75" Level="Error">If the name 'AddNoiseEffect.PropertyNames' is plural, change it to its singular form.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="BackgroundEffectRenderer" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.ctor(PaintDotNet.Effects.Effect,PaintDotNet.Effects.EffectConfigToken,PaintDotNet.RenderArgs,PaintDotNet.RenderArgs,PaintDotNet.PdnRegion,System.Int32,System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="dst" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Effects" File="BackgroundEffectRenderer.cs" Line="51">In method 'BackgroundEffectRenderer.BackgroundEffectRenderer(Effect, EffectConfigToken, RenderArgs, RenderArgs, PdnRegion, int, int)', correct the spelling of 'dst' in parameter name 'dstArgs' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message Id="src" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Effects" File="BackgroundEffectRenderer.cs" Line="51">In method 'BackgroundEffectRenderer.BackgroundEffectRenderer(Effect, EffectConfigToken, RenderArgs, RenderArgs, PdnRegion, int, int)', correct the spelling of 'src' in parameter name 'srcArgs' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="BrightnessAndContrastAdjustment+PropertyNames" Kind="Enum" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="OnlyFlagsEnumsShouldHavePluralNames" Category="Microsoft.Naming" CheckId="CA1717" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="Breaking">
+           <Issue Certainty="75" Level="Error">If the name 'BrightnessAndContrastAdjustment.PropertyNames' is plural, change it to its singular form.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="BulgeEffect" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#StaticSubMenuName" Kind="Property" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="SubMenu" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="Breaking">
+             <Issue Name="MemberShouldBeDiscreteTerm" Certainty="80" Level="Error" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Effects" File="BulgeEffect.cs" Line="42">The compound word 'SubMenu' in member name 'BulgeEffect.StaticSubMenuName' exists as a discrete term. If your usage is intended to be single word, case it as 'Submenu' or strip the first token entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="BulgeEffect+PropertyNames" Kind="Enum" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="OnlyFlagsEnumsShouldHavePluralNames" Category="Microsoft.Naming" CheckId="CA1717" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="Breaking">
+           <Issue Certainty="75" Level="Error">If the name 'BulgeEffect.PropertyNames' is plural, change it to its singular form.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="CloudsEffect+PropertyNames" Kind="Enum" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="OnlyFlagsEnumsShouldHavePluralNames" Category="Microsoft.Naming" CheckId="CA1717" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="Breaking">
+           <Issue Certainty="75" Level="Error">If the name 'CloudsEffect.PropertyNames' is plural, change it to its singular form.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="ColorDifferenceEffect" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#RenderColorDifferenceEffect(System.Double[][],PaintDotNet.RenderArgs,PaintDotNet.RenderArgs,System.Drawing.Rectangle[],System.Int32,System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="dst" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Effects" File="ColorDifferenceEffect.cs" Line="38">In method 'ColorDifferenceEffect.RenderColorDifferenceEffect(double[][], RenderArgs, RenderArgs, Rectangle[], int, int)', correct the spelling of 'dst' in parameter name 'dstArgs' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message Id="rois" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Effects" File="ColorDifferenceEffect.cs" Line="38">In method 'ColorDifferenceEffect.RenderColorDifferenceEffect(double[][], RenderArgs, RenderArgs, Rectangle[], int, int)', correct the spelling of 'rois' in parameter name 'rois' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message Id="src" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Effects" File="ColorDifferenceEffect.cs" Line="38">In method 'ColorDifferenceEffect.RenderColorDifferenceEffect(double[][], RenderArgs, RenderArgs, Rectangle[], int, int)', correct the spelling of 'src' in parameter name 'srcArgs' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="ConvolutionFilterEffect" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#RenderConvolutionFilter(System.Int32[][],System.Int32,PaintDotNet.RenderArgs,PaintDotNet.RenderArgs,System.Drawing.Rectangle[],System.Int32,System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="dst" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Effects" File="ConvolutionFilterEffect.cs" Line="169">In method 'ConvolutionFilterEffect.RenderConvolutionFilter(int[][], int, RenderArgs, RenderArgs, Rectangle[], int, int)', correct the spelling of 'dst' in parameter name 'dstArgs' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message Id="rois" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Effects" File="ConvolutionFilterEffect.cs" Line="169">In method 'ConvolutionFilterEffect.RenderConvolutionFilter(int[][], int, RenderArgs, RenderArgs, Rectangle[], int, int)', correct the spelling of 'rois' in parameter name 'rois' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message Id="src" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Effects" File="ConvolutionFilterEffect.cs" Line="169">In method 'ConvolutionFilterEffect.RenderConvolutionFilter(int[][], int, RenderArgs, RenderArgs, Rectangle[], int, int)', correct the spelling of 'src' in parameter name 'srcArgs' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="CurvesEffectConfigToken" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Uop" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Uop" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Effects" File="CurvesEffectConfigToken.cs" Line="58">Correct the spelling of 'Uop' in member name 'CurvesEffectConfigToken.Uop' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="DesaturateEffect" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message Id="Desaturate" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="Breaking">
+           <Issue Name="Type" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Desaturate' in type name 'DesaturateEffect'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="EdgeDetectEffect+PropertyNames" Kind="Enum" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="OnlyFlagsEnumsShouldHavePluralNames" Category="Microsoft.Naming" CheckId="CA1717" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="Breaking">
+           <Issue Certainty="75" Level="Error">If the name 'EdgeDetectEffect.PropertyNames' is plural, change it to its singular form.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="Effect" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.ctor(System.String,System.Drawing.Image,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="subMenu" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterShouldBeDiscreteTerm" Certainty="80" Level="Error" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Effects" File="Effect.cs" Line="254">In member 'Effect.Effect(string, Image, string)', the compound word 'subMenu' in parameter name 'subMenuName' exists as a discrete term. If your usage is intended to be single word, case it as 'submenu' or strip the first token entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#.ctor(System.String,System.Drawing.Image,System.String,PaintDotNet.Effects.EffectFlags)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="subMenu" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterShouldBeDiscreteTerm" Certainty="80" Level="Error" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Effects" File="Effect.cs" Line="27">In member 'Effect.Effect(string, Image, string, EffectFlags)', the compound word 'subMenu' in parameter name 'subMenuName' exists as a discrete term. If your usage is intended to be single word, case it as 'submenu' or strip the first token entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#CreateConfigDialog()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="CreateConfigDialog" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Effects" File="Effect.cs" Line="186">Correct the spelling of the unrecognized token 'CreateConfigDialog' in the literal '"If IsConfigurable is true, then CreateConfigDialog() must be implemented"'.</Issue>
+            </Message>
+            <Message Id="IsConfigurable" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Effects" File="Effect.cs" Line="186">Correct the spelling of the unrecognized token 'IsConfigurable' in the literal '"If IsConfigurable is true, then CreateConfigDialog() must be implemented"'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#OnSetRenderInfo(PaintDotNet.Effects.EffectConfigToken,PaintDotNet.RenderArgs,PaintDotNet.RenderArgs)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="dst" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Effects" File="Effect.cs" Line="154">In method 'Effect.OnSetRenderInfo(EffectConfigToken, RenderArgs, RenderArgs)', correct the spelling of 'dst' in parameter name 'dstArgs' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message Id="src" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Effects" File="Effect.cs" Line="154">In method 'Effect.OnSetRenderInfo(EffectConfigToken, RenderArgs, RenderArgs)', correct the spelling of 'src' in parameter name 'srcArgs' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Render(PaintDotNet.Effects.EffectConfigToken,PaintDotNet.RenderArgs,PaintDotNet.RenderArgs,PaintDotNet.PdnRegion)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="dst" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Effects" File="Effect.cs" Line="177">In method 'Effect.Render(EffectConfigToken, RenderArgs, RenderArgs, PdnRegion)', correct the spelling of 'dst' in parameter name 'dstArgs' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message Id="roi" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Effects" File="Effect.cs" Line="177">In method 'Effect.Render(EffectConfigToken, RenderArgs, RenderArgs, PdnRegion)', correct the spelling of 'roi' in parameter name 'roi' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message Id="src" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Effects" File="Effect.cs" Line="177">In method 'Effect.Render(EffectConfigToken, RenderArgs, RenderArgs, PdnRegion)', correct the spelling of 'src' in parameter name 'srcArgs' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Render(PaintDotNet.Effects.EffectConfigToken,PaintDotNet.RenderArgs,PaintDotNet.RenderArgs,System.Drawing.Rectangle[])" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="dst" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Effects" File="Effect.cs" Line="172">In method 'Effect.Render(EffectConfigToken, RenderArgs, RenderArgs, Rectangle[])', correct the spelling of 'dst' in parameter name 'dstArgs' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message Id="rois" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Effects" File="Effect.cs" Line="172">In method 'Effect.Render(EffectConfigToken, RenderArgs, RenderArgs, Rectangle[])', correct the spelling of 'rois' in parameter name 'rois' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message Id="src" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Effects" File="Effect.cs" Line="172">In method 'Effect.Render(EffectConfigToken, RenderArgs, RenderArgs, Rectangle[])', correct the spelling of 'src' in parameter name 'srcArgs' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Render(PaintDotNet.Effects.EffectConfigToken,PaintDotNet.RenderArgs,PaintDotNet.RenderArgs,System.Drawing.Rectangle[],System.Int32,System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="dst" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning">In method 'Effect.Render(EffectConfigToken, RenderArgs, RenderArgs, Rectangle[], int, int)', correct the spelling of 'dst' in parameter name 'dstArgs' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message Id="rois" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning">In method 'Effect.Render(EffectConfigToken, RenderArgs, RenderArgs, Rectangle[], int, int)', correct the spelling of 'rois' in parameter name 'rois' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message Id="src" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning">In method 'Effect.Render(EffectConfigToken, RenderArgs, RenderArgs, Rectangle[], int, int)', correct the spelling of 'src' in parameter name 'srcArgs' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#RenderInPlace(PaintDotNet.RenderArgs,PaintDotNet.PdnRegion)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Dst" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Effects" File="Effect.cs" Line="199">In method 'Effect.RenderInPlace(RenderArgs, PdnRegion)', correct the spelling of 'Dst' in parameter name 'srcAndDstArgs' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message Id="roi" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Effects" File="Effect.cs" Line="199">In method 'Effect.RenderInPlace(RenderArgs, PdnRegion)', correct the spelling of 'roi' in parameter name 'roi' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message Id="src" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Effects" File="Effect.cs" Line="199">In method 'Effect.RenderInPlace(RenderArgs, PdnRegion)', correct the spelling of 'src' in parameter name 'srcAndDstArgs' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#RenderInPlace(PaintDotNet.RenderArgs,System.Drawing.Rectangle)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Dst" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Effects" File="Effect.cs" Line="212">In method 'Effect.RenderInPlace(RenderArgs, Rectangle)', correct the spelling of 'Dst' in parameter name 'srcAndDstArgs' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message Id="roi" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Effects" File="Effect.cs" Line="212">In method 'Effect.RenderInPlace(RenderArgs, Rectangle)', correct the spelling of 'roi' in parameter name 'roi' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message Id="src" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Effects" File="Effect.cs" Line="212">In method 'Effect.RenderInPlace(RenderArgs, Rectangle)', correct the spelling of 'src' in parameter name 'srcAndDstArgs' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#SetRenderInfo(PaintDotNet.Effects.EffectConfigToken,PaintDotNet.RenderArgs,PaintDotNet.RenderArgs)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="dst" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Effects" File="Effect.cs" Line="148">In method 'Effect.SetRenderInfo(EffectConfigToken, RenderArgs, RenderArgs)', correct the spelling of 'dst' in parameter name 'dstArgs' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message Id="src" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Effects" File="Effect.cs" Line="148">In method 'Effect.SetRenderInfo(EffectConfigToken, RenderArgs, RenderArgs)', correct the spelling of 'src' in parameter name 'srcArgs' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#SubMenuName" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="SubMenu" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="Breaking">
+             <Issue Name="MemberShouldBeDiscreteTerm" Certainty="80" Level="Error" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Effects" File="Effect.cs" Line="108">The compound word 'SubMenu' in member name 'Effect.SubMenuName' exists as a discrete term. If your usage is intended to be single word, case it as 'Submenu' or strip the first token entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Effect`1" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.ctor(System.String,System.Drawing.Image,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="subMenu" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterShouldBeDiscreteTerm" Certainty="80" Level="Error" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Effects" File="Effect`1.cs" Line="75">In member 'Effect&lt;TToken&gt;.Effect(string, Image, string)', the compound word 'subMenu' in parameter name 'subMenuName' exists as a discrete term. If your usage is intended to be single word, case it as 'submenu' or strip the first token entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#.ctor(System.String,System.Drawing.Image,System.String,PaintDotNet.Effects.EffectFlags)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="subMenu" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterShouldBeDiscreteTerm" Certainty="80" Level="Error" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Effects" File="Effect`1.cs" Line="75">In member 'Effect&lt;TToken&gt;.Effect(string, Image, string, EffectFlags)', the compound word 'subMenu' in parameter name 'subMenuName' exists as a discrete term. If your usage is intended to be single word, case it as 'submenu' or strip the first token entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#DstArgs" Kind="Property" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Dst" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Effects" File="Effect`1.cs" Line="35">Correct the spelling of 'Dst' in member name 'Effect&lt;TToken&gt;.DstArgs' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#OnSetRenderInfo(!0,PaintDotNet.RenderArgs,PaintDotNet.RenderArgs)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="dst" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Effects" File="Effect`1.cs" Line="61">In method 'Effect&lt;TToken&gt;.OnSetRenderInfo(TToken, RenderArgs, RenderArgs)', correct the spelling of 'dst' in parameter name 'dstArgs' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message Id="src" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Effects" File="Effect`1.cs" Line="61">In method 'Effect&lt;TToken&gt;.OnSetRenderInfo(TToken, RenderArgs, RenderArgs)', correct the spelling of 'src' in parameter name 'srcArgs' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message Id="dstArgs" TypeName="VariableNamesShouldNotMatchFieldNames" Category="Microsoft.Maintainability" CheckId="CA1500" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="NonBreaking">
+             <Issue Name="Parameter" Certainty="95" Level="Error" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Effects" File="Effect`1.cs" Line="61">'dstArgs', a parameter declared in 'Effect&lt;TToken&gt;.OnSetRenderInfo(TToken, RenderArgs, RenderArgs)', has the same name as an instance field on the type. Change the name of one of these items.</Issue>
+            </Message>
+            <Message Id="srcArgs" TypeName="VariableNamesShouldNotMatchFieldNames" Category="Microsoft.Maintainability" CheckId="CA1500" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="NonBreaking">
+             <Issue Name="Parameter" Certainty="95" Level="Error" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Effects" File="Effect`1.cs" Line="61">'srcArgs', a parameter declared in 'Effect&lt;TToken&gt;.OnSetRenderInfo(TToken, RenderArgs, RenderArgs)', has the same name as an instance field on the type. Change the name of one of these items.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#OnSetRenderInfo(PaintDotNet.Effects.EffectConfigToken,PaintDotNet.RenderArgs,PaintDotNet.RenderArgs)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="dstArgs" TypeName="VariableNamesShouldNotMatchFieldNames" Category="Microsoft.Maintainability" CheckId="CA1500" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="NonBreaking">
+             <Issue Name="Parameter" Certainty="95" Level="Error" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Effects" File="Effect`1.cs" Line="65">'dstArgs', a parameter declared in 'Effect&lt;TToken&gt;.OnSetRenderInfo(EffectConfigToken, RenderArgs, RenderArgs)', has the same name as an instance field on the type. Change the name of one of these items.</Issue>
+            </Message>
+            <Message Id="srcArgs" TypeName="VariableNamesShouldNotMatchFieldNames" Category="Microsoft.Maintainability" CheckId="CA1500" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="NonBreaking">
+             <Issue Name="Parameter" Certainty="95" Level="Error" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Effects" File="Effect`1.cs" Line="65">'srcArgs', a parameter declared in 'Effect&lt;TToken&gt;.OnSetRenderInfo(EffectConfigToken, RenderArgs, RenderArgs)', has the same name as an instance field on the type. Change the name of one of these items.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Render(PaintDotNet.Effects.EffectConfigToken,PaintDotNet.RenderArgs,PaintDotNet.RenderArgs,System.Drawing.Rectangle[],System.Int32,System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="dstArgs" TypeName="VariableNamesShouldNotMatchFieldNames" Category="Microsoft.Maintainability" CheckId="CA1500" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="NonBreaking">
+             <Issue Name="Parameter" Certainty="95" Level="Error" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Effects" File="Effect`1.cs" Line="85">'dstArgs', a parameter declared in 'Effect&lt;TToken&gt;.Render(EffectConfigToken, RenderArgs, RenderArgs, Rectangle[], int, int)', has the same name as an instance field on the type. Change the name of one of these items.</Issue>
+            </Message>
+            <Message Id="srcArgs" TypeName="VariableNamesShouldNotMatchFieldNames" Category="Microsoft.Maintainability" CheckId="CA1500" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="NonBreaking">
+             <Issue Name="Parameter" Certainty="95" Level="Error" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Effects" File="Effect`1.cs" Line="85">'srcArgs', a parameter declared in 'Effect&lt;TToken&gt;.Render(EffectConfigToken, RenderArgs, RenderArgs, Rectangle[], int, int)', has the same name as an instance field on the type. Change the name of one of these items.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Render(System.Drawing.Rectangle[],System.Int32,System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="SetRenderInfo" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Effects" File="Effect`1.cs" Line="54">Correct the spelling of the unrecognized token 'SetRenderInfo' in the literal '"SetRenderInfo() was not called, nor was render info available implicitely"'.</Issue>
+            </Message>
+            <Message Id="implicitely" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Effects" File="Effect`1.cs" Line="54">Correct the spelling of the unrecognized token 'implicitely' in the literal '"SetRenderInfo() was not called, nor was render info available implicitely"'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#SrcArgs" Kind="Property" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Src" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Effects" File="Effect`1.cs" Line="43">Correct the spelling of 'Src' in member name 'Effect&lt;TToken&gt;.SrcArgs' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="EffectsCollection" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#IsBannedEffect(System.Type)" Kind="Method" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="System.Collections.Generic.Dictionary`2&lt;System.String,System.Collections.Generic.List`1&lt;PaintDotNet.Triple`3&lt;System.String,System.Version,System.String&gt;&gt;&gt;.#ctor(System.Collections.Generic.IEqualityComparer`1&lt;System.String&gt;)" TypeName="UseOrdinalStringComparison" Category="Microsoft.Globalization" CheckId="CA1309" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="NonBreaking">
+             <Issue Name="StringComparer" Certainty="75" Level="Error" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Effects" File="EffectsCollection.cs" Line="206">'EffectsCollection.IsBannedEffect(Type)' passes 'StringComparer.InvariantCultureIgnoreCase' as the 'StringComparer' parameter to 'Dictionary&lt;string, List&lt;Triple&lt;string, Version, string&gt;&gt;&gt;.Dictionary(IEqualityComparer&lt;string&gt;)'. To perform a non-linguistic comparison, specify 'StringComparer.Ordinal' or 'StringComparer.OrdinalIgnoreCase' instead.</Issue>
+            </Message>
+            <Message Id="System.String.Compare(System.String,System.String,System.StringComparison)" TypeName="UseOrdinalStringComparison" Category="Microsoft.Globalization" CheckId="CA1309" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="NonBreaking">
+             <Issue Name="StringComparison" Certainty="75" Level="Error" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Effects" File="EffectsCollection.cs" Line="250">'EffectsCollection.IsBannedEffect(Type)' passes 'StringComparison.InvariantCultureIgnoreCase' as the 'StringComparison' parameter to 'string.Compare(string, string, StringComparison)'. To perform a non-linguistic comparison, specify 'StringComparison.Ordinal' or 'StringComparison.OrdinalIgnoreCase' instead.</Issue>
+             <Issue Name="StringComparison" Certainty="75" Level="Error" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Effects" File="EffectsCollection.cs" Line="259">'EffectsCollection.IsBannedEffect(Type)' passes 'StringComparison.InvariantCultureIgnoreCase' as the 'StringComparison' parameter to 'string.Compare(string, string, StringComparison)'. To perform a non-linguistic comparison, specify 'StringComparison.Ordinal' or 'StringComparison.OrdinalIgnoreCase' instead.</Issue>
+             <Issue Name="StringComparison" Certainty="75" Level="Error" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Effects" File="EffectsCollection.cs" Line="259">'EffectsCollection.IsBannedEffect(Type)' passes 'StringComparison.InvariantCultureIgnoreCase' as the 'StringComparison' parameter to 'string.Compare(string, string, StringComparison)'. To perform a non-linguistic comparison, specify 'StringComparison.Ordinal' or 'StringComparison.OrdinalIgnoreCase' instead.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="EmbossEffect+PropertyNames" Kind="Enum" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="OnlyFlagsEnumsShouldHavePluralNames" Category="Microsoft.Naming" CheckId="CA1717" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="Breaking">
+           <Issue Certainty="75" Level="Error">If the name 'EmbossEffect.PropertyNames' is plural, change it to its singular form.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="FragmentEffect" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#OnRender(System.Drawing.Rectangle[],System.Int32,System.Int32)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="False">
+           <Messages>
+            <Message Id="pointOffsets" TypeName="VariableNamesShouldNotMatchFieldNames" Category="Microsoft.Maintainability" CheckId="CA1500" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="NonBreaking">
+             <Issue Name="Local" Certainty="95" Level="Error" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Effects" File="FragmentEffect.cs" Line="117">'pointOffsets', a variable declared in 'FragmentEffect.OnRender(Rectangle[], int, int)', has the same name as an instance field on the type. Change the name of one of these items.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="FragmentEffect+PropertyNames" Kind="Enum" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="OnlyFlagsEnumsShouldHavePluralNames" Category="Microsoft.Naming" CheckId="CA1717" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="Breaking">
+           <Issue Certainty="75" Level="Error">If the name 'FragmentEffect.PropertyNames' is plural, change it to its singular form.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="FrostedGlassEffect+PropertyNames" Kind="Enum" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="OnlyFlagsEnumsShouldHavePluralNames" Category="Microsoft.Naming" CheckId="CA1717" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="Breaking">
+           <Issue Certainty="75" Level="Error">If the name 'FrostedGlassEffect.PropertyNames' is plural, change it to its singular form.</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#NumSamples" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Num" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Num' in member name 'FrostedGlassEffect.PropertyNames.NumSamples' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="GaussianBlurEffect+PropertyNames" Kind="Enum" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="OnlyFlagsEnumsShouldHavePluralNames" Category="Microsoft.Naming" CheckId="CA1717" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="Breaking">
+           <Issue Certainty="75" Level="Error">If the name 'GaussianBlurEffect.PropertyNames' is plural, change it to its singular form.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="GlowEffect+PropertyNames" Kind="Enum" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="OnlyFlagsEnumsShouldHavePluralNames" Category="Microsoft.Naming" CheckId="CA1717" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="Breaking">
+           <Issue Certainty="75" Level="Error">If the name 'GlowEffect.PropertyNames' is plural, change it to its singular form.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="HueAndSaturationAdjustment+PropertyNames" Kind="Enum" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="OnlyFlagsEnumsShouldHavePluralNames" Category="Microsoft.Naming" CheckId="CA1717" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="Breaking">
+           <Issue Certainty="75" Level="Error">If the name 'HueAndSaturationAdjustment.PropertyNames' is plural, change it to its singular form.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="InkSketchEffect+PropertyNames" Kind="Enum" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="OnlyFlagsEnumsShouldHavePluralNames" Category="Microsoft.Naming" CheckId="CA1717" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="Breaking">
+           <Issue Certainty="75" Level="Error">If the name 'InkSketchEffect.PropertyNames' is plural, change it to its singular form.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="JuliaFractalEffect+PropertyNames" Kind="Enum" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="OnlyFlagsEnumsShouldHavePluralNames" Category="Microsoft.Naming" CheckId="CA1717" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="Breaking">
+           <Issue Certainty="75" Level="Error">If the name 'JuliaFractalEffect.PropertyNames' is plural, change it to its singular form.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="LocalHistogramEffect" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Apply(PaintDotNet.ColorBgra,System.Int32,System.Int32*,System.Int32*,System.Int32*,System.Int32*)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="hb" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Effects" File="LocalHistogramEffect.cs" Line="47">In method 'LocalHistogramEffect.Apply(ColorBgra, int, int*, int*, int*, int*)', correct the spelling of 'hb' in parameter name 'hb' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message Id="hr" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Effects" File="LocalHistogramEffect.cs" Line="47">In method 'LocalHistogramEffect.Apply(ColorBgra, int, int*, int*, int*, int*)', correct the spelling of 'hr' in parameter name 'hr' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message Id="src" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Effects" File="LocalHistogramEffect.cs" Line="47">In method 'LocalHistogramEffect.Apply(ColorBgra, int, int*, int*, int*, int*)', correct the spelling of 'src' in parameter name 'src' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ApplyWithAlpha(PaintDotNet.ColorBgra,System.Int32,System.Int32,System.Int32*,System.Int32*,System.Int32*)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="hb" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Effects" File="LocalHistogramEffect.cs" Line="53">In method 'LocalHistogramEffect.ApplyWithAlpha(ColorBgra, int, int, int*, int*, int*)', correct the spelling of 'hb' in parameter name 'hb' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message Id="hr" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Effects" File="LocalHistogramEffect.cs" Line="53">In method 'LocalHistogramEffect.ApplyWithAlpha(ColorBgra, int, int, int*, int*, int*)', correct the spelling of 'hr' in parameter name 'hr' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message Id="src" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Effects" File="LocalHistogramEffect.cs" Line="53">In method 'LocalHistogramEffect.ApplyWithAlpha(ColorBgra, int, int, int*, int*, int*)', correct the spelling of 'src' in parameter name 'src' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GetPercentile(System.Int32,System.Int32,System.Int32*,System.Int32*,System.Int32*,System.Int32*)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="hb" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Effects" File="LocalHistogramEffect.cs" Line="58">In method 'LocalHistogramEffect.GetPercentile(int, int, int*, int*, int*, int*)', correct the spelling of 'hb' in parameter name 'hb' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message Id="hr" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Effects" File="LocalHistogramEffect.cs" Line="58">In method 'LocalHistogramEffect.GetPercentile(int, int, int*, int*, int*, int*)', correct the spelling of 'hr' in parameter name 'hr' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#RenderRect(System.Int32,PaintDotNet.Surface,PaintDotNet.Surface,System.Drawing.Rectangle)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="dst" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Effects" File="LocalHistogramEffect.cs" Line="125">In method 'LocalHistogramEffect.RenderRect(int, Surface, Surface, Rectangle)', correct the spelling of 'dst' in parameter name 'dst' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message Id="src" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Effects" File="LocalHistogramEffect.cs" Line="125">In method 'LocalHistogramEffect.RenderRect(int, Surface, Surface, Rectangle)', correct the spelling of 'src' in parameter name 'src' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#RenderRectWithAlpha(System.Int32,PaintDotNet.Surface,PaintDotNet.Surface,System.Drawing.Rectangle)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="dst" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Effects" File="LocalHistogramEffect.cs" Line="333">In method 'LocalHistogramEffect.RenderRectWithAlpha(int, Surface, Surface, Rectangle)', correct the spelling of 'dst' in parameter name 'dst' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message Id="src" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Effects" File="LocalHistogramEffect.cs" Line="333">In method 'LocalHistogramEffect.RenderRectWithAlpha(int, Surface, Surface, Rectangle)', correct the spelling of 'src' in parameter name 'src' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="MandelbrotFractalEffect+PropertyNames" Kind="Enum" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="OnlyFlagsEnumsShouldHavePluralNames" Category="Microsoft.Naming" CheckId="CA1717" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="Breaking">
+           <Issue Certainty="75" Level="Error">If the name 'MandelbrotFractalEffect.PropertyNames' is plural, change it to its singular form.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="MedianEffect+PropertyNames" Kind="Enum" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="OnlyFlagsEnumsShouldHavePluralNames" Category="Microsoft.Naming" CheckId="CA1717" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="Breaking">
+           <Issue Certainty="75" Level="Error">If the name 'MedianEffect.PropertyNames' is plural, change it to its singular form.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="MotionBlurEffect+PropertyNames" Kind="Enum" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="OnlyFlagsEnumsShouldHavePluralNames" Category="Microsoft.Naming" CheckId="CA1717" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="Breaking">
+           <Issue Certainty="75" Level="Error">If the name 'MotionBlurEffect.PropertyNames' is plural, change it to its singular form.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="OilPaintingEffect+PropertyNames" Kind="Enum" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="OnlyFlagsEnumsShouldHavePluralNames" Category="Microsoft.Naming" CheckId="CA1717" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="Breaking">
+           <Issue Certainty="75" Level="Error">If the name 'OilPaintingEffect.PropertyNames' is plural, change it to its singular form.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="OutlineEffect+PropertyNames" Kind="Enum" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="OnlyFlagsEnumsShouldHavePluralNames" Category="Microsoft.Naming" CheckId="CA1717" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="Breaking">
+           <Issue Certainty="75" Level="Error">If the name 'OutlineEffect.PropertyNames' is plural, change it to its singular form.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="PanControl" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#DrawToGraphics(System.Drawing.Graphics)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="g" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Effects" File="PanControl.cs" Line="184">In method 'PanControl.DrawToGraphics(Graphics)', consider providing a more meaningful name than parameter name 'g'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="PencilSketchEffect+PropertyNames" Kind="Enum" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="OnlyFlagsEnumsShouldHavePluralNames" Category="Microsoft.Naming" CheckId="CA1717" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="Breaking">
+           <Issue Certainty="75" Level="Error">If the name 'PencilSketchEffect.PropertyNames' is plural, change it to its singular form.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="PixelateEffect" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#ComputeCellColor(System.Int32,System.Int32,PaintDotNet.RenderArgs,System.Int32)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="cellSize" TypeName="VariableNamesShouldNotMatchFieldNames" Category="Microsoft.Maintainability" CheckId="CA1500" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="NonBreaking">
+             <Issue Name="Parameter" Certainty="95" Level="Error" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Effects" File="PixelateEffect.cs" Line="64">'cellSize', a parameter declared in 'PixelateEffect.ComputeCellColor(int, int, RenderArgs, int)', has the same name as an instance field on the type. Change the name of one of these items.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GetCellBox(System.Int32,System.Int32,System.Int32)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="cellSize" TypeName="VariableNamesShouldNotMatchFieldNames" Category="Microsoft.Maintainability" CheckId="CA1500" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="NonBreaking">
+             <Issue Name="Parameter" Certainty="95" Level="Error" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Effects" File="PixelateEffect.cs" Line="84">'cellSize', a parameter declared in 'PixelateEffect.GetCellBox(int, int, int)', has the same name as an instance field on the type. Change the name of one of these items.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="PixelateEffect+PropertyNames" Kind="Enum" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="OnlyFlagsEnumsShouldHavePluralNames" Category="Microsoft.Naming" CheckId="CA1717" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="Breaking">
+           <Issue Certainty="75" Level="Error">If the name 'PixelateEffect.PropertyNames' is plural, change it to its singular form.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="PolarInversionEffect+PropertyNames" Kind="Enum" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="OnlyFlagsEnumsShouldHavePluralNames" Category="Microsoft.Naming" CheckId="CA1717" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="Breaking">
+           <Issue Certainty="75" Level="Error">If the name 'PolarInversionEffect.PropertyNames' is plural, change it to its singular form.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="PosterizeAdjustment" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message Id="Posterize" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="Breaking">
+           <Issue Name="Type" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Posterize' in type name 'PosterizeAdjustment'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="PosterizeAdjustment+PropertyNames" Kind="Enum" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="OnlyFlagsEnumsShouldHavePluralNames" Category="Microsoft.Naming" CheckId="CA1717" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="Breaking">
+           <Issue Certainty="75" Level="Error">If the name 'PosterizeAdjustment.PropertyNames' is plural, change it to its singular form.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="PropertyBasedEffect" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.ctor(System.String,System.Drawing.Image,System.String,PaintDotNet.Effects.EffectFlags)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="subMenu" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterShouldBeDiscreteTerm" Certainty="80" Level="Error" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Effects" File="PropertyBasedEffect.cs" Line="106">In member 'PropertyBasedEffect.PropertyBasedEffect(string, Image, string, EffectFlags)', the compound word 'subMenu' in parameter name 'subMenuName' exists as a discrete term. If your usage is intended to be single word, case it as 'submenu' or strip the first token entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="RadialBlurEffect+PropertyNames" Kind="Enum" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="OnlyFlagsEnumsShouldHavePluralNames" Category="Microsoft.Naming" CheckId="CA1717" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="Breaking">
+           <Issue Certainty="75" Level="Error">If the name 'RadialBlurEffect.PropertyNames' is plural, change it to its singular form.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="RedEyeRemoveEffect" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message Id="RedEye" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="Breaking">
+           <Issue Name="TypeShouldBeDiscreteTerm" Certainty="80" Level="Error">The compound word 'RedEye' in type name 'RedEyeRemoveEffect' exists as a discrete term. If your usage is intended to be single word, case it as 'Redeye'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="RedEyeRemoveEffect+PropertyNames" Kind="Enum" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="OnlyFlagsEnumsShouldHavePluralNames" Category="Microsoft.Naming" CheckId="CA1717" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="Breaking">
+           <Issue Certainty="75" Level="Error">If the name 'RedEyeRemoveEffect.PropertyNames' is plural, change it to its singular form.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="ReduceNoiseEffect+PropertyNames" Kind="Enum" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="OnlyFlagsEnumsShouldHavePluralNames" Category="Microsoft.Naming" CheckId="CA1717" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="Breaking">
+           <Issue Certainty="75" Level="Error">If the name 'ReduceNoiseEffect.PropertyNames' is plural, change it to its singular form.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="ReliefEffect+PropertyNames" Kind="Enum" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="OnlyFlagsEnumsShouldHavePluralNames" Category="Microsoft.Naming" CheckId="CA1717" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="Breaking">
+           <Issue Certainty="75" Level="Error">If the name 'ReliefEffect.PropertyNames' is plural, change it to its singular form.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="SharpenEffect+PropertyNames" Kind="Enum" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="OnlyFlagsEnumsShouldHavePluralNames" Category="Microsoft.Naming" CheckId="CA1717" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="Breaking">
+           <Issue Certainty="75" Level="Error">If the name 'SharpenEffect.PropertyNames' is plural, change it to its singular form.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="SoftenPortraitEffect+PropertyNames" Kind="Enum" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="OnlyFlagsEnumsShouldHavePluralNames" Category="Microsoft.Naming" CheckId="CA1717" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="Breaking">
+           <Issue Certainty="75" Level="Error">If the name 'SoftenPortraitEffect.PropertyNames' is plural, change it to its singular form.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="TileEffect" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#StaticSubMenuName" Kind="Property" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="SubMenu" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="Breaking">
+             <Issue Name="MemberShouldBeDiscreteTerm" Certainty="80" Level="Error" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Effects" File="TileEffect.cs" Line="42">The compound word 'SubMenu' in member name 'TileEffect.StaticSubMenuName' exists as a discrete term. If your usage is intended to be single word, case it as 'Submenu' or strip the first token entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="TileEffect+PropertyNames" Kind="Enum" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="OnlyFlagsEnumsShouldHavePluralNames" Category="Microsoft.Naming" CheckId="CA1717" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="Breaking">
+           <Issue Certainty="75" Level="Error">If the name 'TileEffect.PropertyNames' is plural, change it to its singular form.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="TwistEffect" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#StaticSubMenuName" Kind="Property" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="SubMenu" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="Breaking">
+             <Issue Name="MemberShouldBeDiscreteTerm" Certainty="80" Level="Error" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Effects" File="TwistEffect.cs" Line="42">The compound word 'SubMenu' in member name 'TwistEffect.StaticSubMenuName' exists as a discrete term. If your usage is intended to be single word, case it as 'Submenu' or strip the first token entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="TwistEffect+PropertyNames" Kind="Enum" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="OnlyFlagsEnumsShouldHavePluralNames" Category="Microsoft.Naming" CheckId="CA1717" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="Breaking">
+           <Issue Certainty="75" Level="Error">If the name 'TwistEffect.PropertyNames' is plural, change it to its singular form.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="UnfocusEffect" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message Id="Unfocus" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="Breaking">
+           <Issue Name="Type" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Unfocus' in type name 'UnfocusEffect'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="UnfocusEffect+PropertyNames" Kind="Enum" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="OnlyFlagsEnumsShouldHavePluralNames" Category="Microsoft.Naming" CheckId="CA1717" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="Breaking">
+           <Issue Certainty="75" Level="Error">If the name 'UnfocusEffect.PropertyNames' is plural, change it to its singular form.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="WarpEffectBase" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#OnSetRenderInfo2(PaintDotNet.Effects.PropertyBasedEffectConfigToken,PaintDotNet.RenderArgs,PaintDotNet.RenderArgs)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="dst" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Effects" File="WarpEffectBase.cs" Line="143">In method 'WarpEffectBase.OnSetRenderInfo2(PropertyBasedEffectConfigToken, RenderArgs, RenderArgs)', correct the spelling of 'dst' in parameter name 'dstArgs' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message Id="src" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Effects" File="WarpEffectBase.cs" Line="143">In method 'WarpEffectBase.OnSetRenderInfo2(PropertyBasedEffectConfigToken, RenderArgs, RenderArgs)', correct the spelling of 'src' in parameter name 'srcArgs' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="WarpEffectBase+TransformData" Kind="Struct" Accessibility="Family" ExternallyVisible="True">
+         <Members>
+          <Member Name="#X" Kind="Field" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="X" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="Breaking">
+             <Issue Name="MemberMoreMeaningfulName" Certainty="75" Level="CriticalWarning">Consider providing a more meaningful name than member name 'WarpEffectBase.TransformData.X'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Y" Kind="Field" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Y" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="Breaking">
+             <Issue Name="MemberMoreMeaningfulName" Certainty="75" Level="CriticalWarning">Consider providing a more meaningful name than member name 'WarpEffectBase.TransformData.Y'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="ZoomBlurEffect+PropertyNames" Kind="Enum" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="OnlyFlagsEnumsShouldHavePluralNames" Category="Microsoft.Naming" CheckId="CA1717" Status="Active" Created="2024-02-23 05:47:03Z" FixCategory="Breaking">
+           <Issue Certainty="75" Level="Error">If the name 'ZoomBlurEffect.PropertyNames' is plural, change it to its singular form.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702">
+   <Name>Compound words should be cased correctly</Name>
+   <Description>Avoid creating compound words from terms which exist in the dictionary as discrete terms. Do not create a compound word such as 'StopWatch' or 'PopUp'. These terms are recognized in the dictionary and should be cased as 'Stopwatch' and 'Popup'.</Description>
+   <Resolution Name="MemberParameterShouldBeDiscreteTerm">In member {0}, the compound word '{1}' in parameter name {2} exists as a discrete term. If your usage is intended to be single word, case it as '{3}' or strip the first token entirely if it represents any sort of Hungarian notation.</Resolution>
+   <Resolution Name="MemberShouldBeDiscreteTerm">The compound word '{0}' in member name {1} exists as a discrete term. If your usage is intended to be single word, case it as '{2}' or strip the first token entirely if it represents any sort of Hungarian notation.</Resolution>
+   <Resolution Name="TypeShouldBeDiscreteTerm">The compound word '{0}' in type name {1} exists as a discrete term. If your usage is intended to be single word, case it as '{2}'.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/bb264474.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="80">Error</MessageLevel>
+   <File Name="namingrules.dll" Version="16.0.0.0" />
+  </Rule>
+  <Rule TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704">
+   <Name>Identifiers should be spelled correctly</Name>
+   <Description>The individual words that make up an identifier should not be abbreviated and should be spelled correctly. If this rule generates a false positive on a term that should be recognized, add the word to the FxCop custom dictionary.</Description>
+   <Resolution Name="Member">Correct the spelling of '{0}' in member name {1} or remove it entirely if it represents any sort of Hungarian notation.</Resolution>
+   <Resolution Name="MemberMoreMeaningfulName">Consider providing a more meaningful name than member name {0}.</Resolution>
+   <Resolution Name="MemberParameter">In method {0}, correct the spelling of '{1}' in parameter name {2} or remove it entirely if it represents any sort of Hungarian notation.</Resolution>
+   <Resolution Name="MemberParameterMoreMeaningfulName">In method {0}, consider providing a more meaningful name than parameter name {1}.</Resolution>
+   <Resolution Name="Type">Correct the spelling of '{0}' in type name {1}.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/bb264492.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">CriticalWarning</MessageLevel>
+   <File Name="namingrules.dll" Version="16.0.0.0" />
+  </Rule>
+  <Rule TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204">
+   <Name>Literals should be spelled correctly</Name>
+   <Description>This rule parses the literal string into words, tokenizing compound words, and checks the spelling of each word/token.</Description>
+   <Resolution Name="Default">Correct the spelling of the unrecognized token '{0}' in the literal '{1}'.</Resolution>
+   <Owner>RuleOwner</Owner>
+   <Url>http://msdn.microsoft.com/library/bb264488.aspx</Url>
+   <Email />
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="dataflowrules.dll" Version="16.0.0.0" />
+  </Rule>
+  <Rule TypeName="OnlyFlagsEnumsShouldHavePluralNames" Category="Microsoft.Naming" CheckId="CA1717">
+   <Name>Only FlagsAttribute enums should have plural names</Name>
+   <Description>Plural names indicate that the values of the enumeration can be combined. For example, an enumeration named 'Day' indicates a single day, and an enumeration named 'Days' indicates multiple days. Enumeration values should be combined using the bit-wise OR operator only if the Flags attribute is present on the enumeration.</Description>
+   <Resolution Name="Default">If the name {0} is plural, change it to its singular form.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/bb264487.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Error</MessageLevel>
+   <File Name="namingrules.dll" Version="16.0.0.0" />
+  </Rule>
+  <Rule TypeName="UseOrdinalStringComparison" Category="Microsoft.Globalization" CheckId="CA1309">
+   <Name>Use ordinal StringComparison</Name>
+   <Description>For non-linguistic comparisons, StringComparison.Ordinal or StringComparison.OrdinalIgnoreCase should be used instead of the linguistically-sensitive StringComparison.InvariantCulture.</Description>
+   <Resolution Name="StringComparer">{0} passes '{1}' as the 'StringComparer' parameter to {2}. To perform a non-linguistic comparison, specify 'StringComparer.Ordinal' or 'StringComparer.OrdinalIgnoreCase' instead.</Resolution>
+   <Resolution Name="StringComparison">{0} passes '{1}' as the 'StringComparison' parameter to {2}. To perform a non-linguistic comparison, specify 'StringComparison.Ordinal' or 'StringComparison.OrdinalIgnoreCase' instead.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/bb385972.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Error</MessageLevel>
+   <File Name="globalizationrules.dll" Version="16.0.0.0" />
+  </Rule>
+  <Rule TypeName="VariableNamesShouldNotMatchFieldNames" Category="Microsoft.Maintainability" CheckId="CA1500">
+   <Name>Variable names should not match field names</Name>
+   <Description>Instance field and variable names should not be identical within the same scope.</Description>
+   <Resolution Name="Local">{0}, a variable declared in {1}, has the same name as an instance field on the type. Change the name of one of these items.</Resolution>
+   <Resolution Name="Parameter">{0}, a parameter declared in {1}, has the same name as an instance field on the type. Change the name of one of these items.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182216.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="maintainabilityrules.dll" Version="16.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">Category</String>
+  <String Key="Certainty">Certainty</String>
+  <String Key="CollapseAll">Collapse All</String>
+  <String Key="CheckId">Check Id</String>
+  <String Key="Error">Error</String>
+  <String Key="Errors">error(s)</String>
+  <String Key="ExpandAll">Expand All</String>
+  <String Key="Help">Help</String>
+  <String Key="Line">Line</String>
+  <String Key="Messages">message(s)</String>
+  <String Key="LocationNotStoredInPdb">[Location not stored in Pdb]</String>
+  <String Key="Project">Project</String>
+  <String Key="Resolution">Resolution</String>
+  <String Key="Rule">Rule</String>
+  <String Key="RuleFile">Rule File</String>
+  <String Key="RuleDescription">Rule Description</String>
+  <String Key="Source">Source</String>
+  <String Key="Status">Status</String>
+  <String Key="Target">Target</String>
+  <String Key="Warning">Warning</String>
+  <String Key="Warnings">warning(s)</String>
+  <String Key="ReportTitle">Code Analysis Report</String>
+ </Localized>
+</FxCopReport>

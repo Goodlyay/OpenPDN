@@ -1,0 +1,953 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="c:\program files (x86)\microsoft visual studio\2019\community\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<FxCopReport Version="16.0">
+ <Targets>
+  <Target Name="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer\bin\Debug\PaintDotNet.SystemLayer.dll">
+   <Modules>
+    <Module Name="paintdotnet.systemlayer.dll">
+     <Namespaces>
+      <Namespace Name="PaintDotNet.SystemLayer">
+       <Types>
+        <Type Name="ExecuteWaitType" Kind="Enum" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#RelaunchPdnOnExit" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Pdn" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Pdn' in member name 'ExecuteWaitType.RelaunchPdnOnExit' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message Id="Relaunch" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Relaunch' in member name 'ExecuteWaitType.RelaunchPdnOnExit' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="FileSystem" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#CreateTempFile(System.String)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="CreateFileW" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="FileSystem.cs" Line="51">Correct the spelling of the unrecognized token 'CreateFileW' in the literal '"CreateFileW returned INVALID_HANDLE_VALUE"'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#OpenStreamingFile(System.String,System.IO.FileAccess)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="CreateFileW" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="FileSystem.cs" Line="123">Correct the spelling of the unrecognized token 'CreateFileW' in the literal '"CreateFileW returned INVALID_HANDLE_VALUE"'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ReadFromStream(System.IO.FileStream,System.Void*,System.UInt32)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="pv" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="FileSystem.cs" Line="431">In method 'FileSystem.ReadFromStream(FileStream, void*, uint)', correct the spelling of 'pv' in parameter name 'pvBuffer' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message Id="ReadFile" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="FileSystem.cs" Line="448">Correct the spelling of the unrecognized token 'ReadFile' in the literal '"ReadFile() returned false"'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ReadFromStreamScatter(System.IO.FileStream,System.Void*[],System.UInt32[])" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="ppv" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="FileSystem.cs" Line="405">In method 'FileSystem.ReadFromStreamScatter(FileStream, void*[], uint[])', correct the spelling of 'ppv' in parameter name 'ppvBuffers' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#TryDeleteDirectory(System.String)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="dir" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="FileSystem.cs" Line="557">In method 'FileSystem.TryDeleteDirectory(string)', correct the spelling of 'dir' in parameter name 'dirPath' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#TryDeleteFile(System.String,System.String)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="dir" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="FileSystem.cs" Line="547">In method 'FileSystem.TryDeleteFile(string, string)', correct the spelling of 'dir' in parameter name 'dirPath' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#WriteToStream(System.IntPtr,System.Void*,System.UInt32)" Kind="Method" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="WriteFile" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="FileSystem.cs" Line="179">Correct the spelling of the unrecognized token 'WriteFile' in the literal '"WriteFile() returned false"'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#WriteToStream(System.IO.FileStream,System.Void*,System.UInt32)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="System.Runtime.InteropServices.SafeHandle.DangerousGetHandle" TypeName="AvoidCallingProblematicMethods" Category="Microsoft.Reliability" CheckId="CA2001" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="NonBreaking">
+             <Issue Name="System.Runtime.InteropServices.SafeHandle.DangerousGetHandle" Certainty="75" Level="Error" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="FileSystem.cs" Line="158">Remove the call to SafeHandle.DangerousGetHandle from 'FileSystem.WriteToStream(FileStream, void*, uint)'.</Issue>
+            </Message>
+            <Message Id="pv" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="FileSystem.cs" Line="157">In method 'FileSystem.WriteToStream(FileStream, void*, uint)', correct the spelling of 'pv' in parameter name 'pvBuffer' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#WriteToStreamingFileGather(System.IO.FileStream,System.Void*[],System.UInt32[])" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="System.Runtime.InteropServices.SafeHandle.DangerousGetHandle" TypeName="AvoidCallingProblematicMethods" Category="Microsoft.Reliability" CheckId="CA2001" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="NonBreaking">
+             <Issue Name="System.Runtime.InteropServices.SafeHandle.DangerousGetHandle" Certainty="75" Level="Error" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="FileSystem.cs" Line="376">Remove the call to SafeHandle.DangerousGetHandle from 'FileSystem.WriteToStreamingFileGather(FileStream, void*[], uint[])'.</Issue>
+            </Message>
+            <Message Id="ppv" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="FileSystem.cs" Line="365">In method 'FileSystem.WriteToStreamingFileGather(FileStream, void*[], uint[])', correct the spelling of 'ppv' in parameter name 'ppvBuffers' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Fonts" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#CreateFontObject(System.Drawing.Font,System.Boolean)" Kind="Method" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="CreateFontW" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="Fonts.cs" Line="87">Correct the spelling of the unrecognized token 'CreateFontW' in the literal '"CreateFontW returned NULL"'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#DrawText(System.Drawing.Graphics,System.Drawing.Font,System.String,System.Drawing.Point,System.Boolean,PaintDotNet.SystemLayer.FontSmoothing)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="antiAliasing" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterShouldBeDiscreteTerm" Certainty="80" Level="Error" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="Fonts.cs" Line="194">In member 'Fonts.DrawText(Graphics, Font, string, Point, bool, FontSmoothing)', the compound word 'antiAliasing' in parameter name 'antiAliasing' exists as a discrete term. If your usage is intended to be single word, case it as 'antialiasing' or strip the first token entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message Id="g" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="Fonts.cs" Line="194">In method 'Fonts.DrawText(Graphics, Font, string, Point, bool, FontSmoothing)', consider providing a more meaningful name than parameter name 'g'.</Issue>
+            </Message>
+            <Message Id="pt" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="Fonts.cs" Line="194">In method 'Fonts.DrawText(Graphics, Font, string, Point, bool, FontSmoothing)', correct the spelling of 'pt' in parameter name 'pt' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message Id="DrawTextW" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="Fonts.cs" Line="242">Correct the spelling of the unrecognized token 'DrawTextW' in the literal '"DrawTextW returned 0"'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#MeasureString(System.Drawing.Graphics,System.Drawing.Font,System.String,System.Boolean,PaintDotNet.SystemLayer.FontSmoothing)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="antiAliasing" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterShouldBeDiscreteTerm" Certainty="80" Level="Error" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="Fonts.cs" Line="101">In member 'Fonts.MeasureString(Graphics, Font, string, bool, FontSmoothing)', the compound word 'antiAliasing' in parameter name 'antiAliasing' exists as a discrete term. If your usage is intended to be single word, case it as 'antialiasing' or strip the first token entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message Id="g" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="Fonts.cs" Line="101">In method 'Fonts.MeasureString(Graphics, Font, string, bool, FontSmoothing)', consider providing a more meaningful name than parameter name 'g'.</Issue>
+            </Message>
+            <Message Id="DrawTextW" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="Fonts.cs" Line="152">Correct the spelling of the unrecognized token 'DrawTextW' in the literal '"DrawTextW returned 0"'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="FormEx" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.ctor(System.Windows.Forms.Form,PaintDotNet.SystemLayer.RealParentWndProcDelegate)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Proc" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="FormEx.cs" Line="30">In method 'FormEx.FormEx(Form, RealParentWndProcDelegate)', correct the spelling of 'Proc' in parameter name 'realParentWndProc' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message Id="Wnd" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="FormEx.cs" Line="30">In method 'FormEx.FormEx(Form, RealParentWndProcDelegate)', correct the spelling of 'Wnd' in parameter name 'realParentWndProc' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#HandleParentWndProc(System.Windows.Forms.Message&amp;)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Proc" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="FormEx.cs" Line="137">Correct the spelling of 'Proc' in member name 'FormEx.HandleParentWndProc(ref Message)' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message Id="Wnd" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="FormEx.cs" Line="137">Correct the spelling of 'Wnd' in member name 'FormEx.HandleParentWndProc(ref Message)' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message Id="m" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="FormEx.cs" Line="137">In method 'FormEx.HandleParentWndProc(ref Message)', consider providing a more meaningful name than parameter name 'm'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="IFileOpenDialog" Kind="Interface" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Multiselect" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Multiselect" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Multiselect' in member name 'IFileOpenDialog.Multiselect' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="IInkHooks" Kind="Interface" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#PerformDocumentMouseDown(System.Windows.Forms.MouseButtons,System.Int32,System.Single,System.Single,System.Int32,System.Single)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="x" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">In method 'IInkHooks.PerformDocumentMouseDown(MouseButtons, int, float, float, int, float)', consider providing a more meaningful name than parameter name 'x'.</Issue>
+            </Message>
+            <Message Id="y" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">In method 'IInkHooks.PerformDocumentMouseDown(MouseButtons, int, float, float, int, float)', consider providing a more meaningful name than parameter name 'y'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#PerformDocumentMouseMove(System.Windows.Forms.MouseButtons,System.Int32,System.Single,System.Single,System.Int32,System.Single)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="x" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">In method 'IInkHooks.PerformDocumentMouseMove(MouseButtons, int, float, float, int, float)', consider providing a more meaningful name than parameter name 'x'.</Issue>
+            </Message>
+            <Message Id="y" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">In method 'IInkHooks.PerformDocumentMouseMove(MouseButtons, int, float, float, int, float)', consider providing a more meaningful name than parameter name 'y'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#PerformDocumentMouseUp(System.Windows.Forms.MouseButtons,System.Int32,System.Single,System.Single,System.Int32,System.Single)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="x" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">In method 'IInkHooks.PerformDocumentMouseUp(MouseButtons, int, float, float, int, float)', consider providing a more meaningful name than parameter name 'x'.</Issue>
+            </Message>
+            <Message Id="y" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">In method 'IInkHooks.PerformDocumentMouseUp(MouseButtons, int, float, float, int, float)', consider providing a more meaningful name than parameter name 'y'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Memory" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Allocate(System.UInt64)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="HeapAlloc" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="Memory.cs" Line="105">Correct the spelling of the unrecognized token 'HeapAlloc' in the literal '"HeapAlloc returned a null pointer"'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#AllocateBitmap(System.Int32,System.Int32,System.IntPtr&amp;)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="CreateDIBSection" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="Memory.cs" Line="190">Correct the spelling of the unrecognized token 'CreateDIBSection' in the literal '"CreateDIBSection returned NULL ("'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#AllocateLarge(System.UInt64)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="VirtualAlloc" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="Memory.cs" Line="134">Correct the spelling of the unrecognized token 'VirtualAlloc' in the literal '"VirtualAlloc returned a null pointer"'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Copy(System.IntPtr,System.IntPtr,System.UInt64)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="dst" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="Memory.cs" Line="329">In method 'Memory.Copy(IntPtr, IntPtr, ulong)', correct the spelling of 'dst' in parameter name 'dst' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message Id="src" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="Memory.cs" Line="329">In method 'Memory.Copy(IntPtr, IntPtr, ulong)', correct the spelling of 'src' in parameter name 'src' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Copy(System.Void*,System.Void*,System.UInt64)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="dst" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="Memory.cs" Line="341">In method 'Memory.Copy(void*, void*, ulong)', correct the spelling of 'dst' in parameter name 'dst' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message Id="src" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="Memory.cs" Line="341">In method 'Memory.Copy(void*, void*, ulong)', correct the spelling of 'src' in parameter name 'src' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Free(System.IntPtr)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="HeapFree" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="Memory.cs" Line="243">Correct the spelling of the unrecognized token 'HeapFree' in the literal '"HeapFree returned an error: "'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#FreeBitmap(System.IntPtr,System.Int32,System.Int32)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="DeleteObject" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="Memory.cs" Line="218">Correct the spelling of the unrecognized token 'DeleteObject' in the literal '"DeleteObject returned false"'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#FreeLarge(System.IntPtr,System.UInt64)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="VirtualFree" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="Memory.cs" Line="271">Correct the spelling of the unrecognized token 'VirtualFree' in the literal '"VirtualFree returned an error: "'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#SetToZero(System.IntPtr,System.UInt64)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="dst" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="Memory.cs" Line="346">In method 'Memory.SetToZero(IntPtr, ulong)', correct the spelling of 'dst' in parameter name 'dst' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#SetToZero(System.Void*,System.UInt64)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="dst" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="Memory.cs" Line="351">In method 'Memory.SetToZero(void*, ulong)', correct the spelling of 'dst' in parameter name 'dst' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#TotalPhysicalBytes" Kind="Property" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Accessors>
+            <Accessor Name="#get_TotalPhysicalBytes()" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+             <Messages>
+              <Message Id="GlobalMemoryStatusEx" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="DependsOnFix">
+               <Issue Certainty="75" Level="Warning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="Memory.cs" Line="68">Correct the spelling of the unrecognized token 'GlobalMemoryStatusEx' in the literal '"GlobalMemoryStatusEx"'.</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="NativeMethods" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#EnumWindows(PaintDotNet.SystemLayer.NativeDelegates+EnumWindowsProc,System.IntPtr)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning">'NativeMethods.EnumWindows(NativeDelegates.EnumWindowsProc, IntPtr)' appears to have no upstream public or protected callers.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#WaitForInputIdle(System.IntPtr,System.UInt32)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning">'NativeMethods.WaitForInputIdle(IntPtr, uint)' appears to have no upstream public or protected callers.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="NullGraphics" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.ctor()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="CreateCompatibleDC" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="NullGraphics.cs" Line="42">Correct the spelling of the unrecognized token 'CreateCompatibleDC' in the literal '"CreateCompatibleDC returned NULL"'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="PdnGraphics" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message Id="Pdn" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="Breaking">
+           <Issue Name="Type" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Pdn' in type name 'PdnGraphics'.</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#DrawBitmap(System.Drawing.Graphics,System.Drawing.Rectangle,System.Drawing.Drawing2D.Matrix,System.IntPtr,System.Int32,System.Int32)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="dst" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="PdnGraphics.cs" Line="143">In method 'PdnGraphics.DrawBitmap(Graphics, Rectangle, Matrix, IntPtr, int, int)', correct the spelling of 'dst' in parameter name 'dst' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="PdnGraphics.cs" Line="143">In method 'PdnGraphics.DrawBitmap(Graphics, Rectangle, Matrix, IntPtr, int, int)', correct the spelling of 'dst' in parameter name 'dstMatrix' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="PdnGraphics.cs" Line="143">In method 'PdnGraphics.DrawBitmap(Graphics, Rectangle, Matrix, IntPtr, int, int)', correct the spelling of 'dst' in parameter name 'dstRect' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message Id="src" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="PdnGraphics.cs" Line="143">In method 'PdnGraphics.DrawBitmap(Graphics, Rectangle, Matrix, IntPtr, int, int)', correct the spelling of 'src' in parameter name 'srcBitmapHandle' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="PdnGraphics.cs" Line="143">In method 'PdnGraphics.DrawBitmap(Graphics, Rectangle, Matrix, IntPtr, int, int)', correct the spelling of 'src' in parameter name 'srcOffsetX' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="PdnGraphics.cs" Line="143">In method 'PdnGraphics.DrawBitmap(Graphics, Rectangle, Matrix, IntPtr, int, int)', correct the spelling of 'src' in parameter name 'srcOffsetY' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#DrawPolyLine(System.Drawing.Graphics,System.Drawing.Color,System.Drawing.Point[])" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="PolyLine" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="Breaking">
+             <Issue Name="MemberShouldBeDiscreteTerm" Certainty="80" Level="Error" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="PdnGraphics.cs" Line="318">The compound word 'PolyLine' in member name 'PdnGraphics.DrawPolyLine(Graphics, Color, Point[])' exists as a discrete term. If your usage is intended to be single word, case it as 'Polyline' or strip the first token entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message Id="g" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="PdnGraphics.cs" Line="318">In method 'PdnGraphics.DrawPolyLine(Graphics, Color, Point[])', consider providing a more meaningful name than parameter name 'g'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#DrawPolyLineImpl(System.Drawing.Graphics,System.Drawing.Color,System.Drawing.Point[])" Kind="Method" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="CreatePen" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="PdnGraphics.cs" Line="350">Correct the spelling of the unrecognized token 'CreatePen' in the literal '"CreatePen returned NULL"'.</Issue>
+            </Message>
+            <Message Id="LineTo" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="PdnGraphics.cs" Line="369">Correct the spelling of the unrecognized token 'LineTo' in the literal '"LineTo returned false"'.</Issue>
+            </Message>
+            <Message Id="MoveToEx" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="PdnGraphics.cs" Line="360">Correct the spelling of the unrecognized token 'MoveToEx' in the literal '"MoveToEx returned false"'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#FillRectangles(System.Drawing.Graphics,System.Drawing.Color,System.Drawing.Rectangle[])" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="g" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="PdnGraphics.cs" Line="410">In method 'PdnGraphics.FillRectangles(Graphics, Color, Rectangle[])', consider providing a more meaningful name than parameter name 'g'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#FillRectanglesImpl(System.Drawing.Graphics,System.Drawing.Color,System.Drawing.Rectangle[])" Kind="Method" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="CreateSolidBrush" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="PdnGraphics.cs" Line="437">Correct the spelling of the unrecognized token 'CreateSolidBrush' in the literal '"CreateSolidBrush returned NULL"'.</Issue>
+            </Message>
+            <Message Id="FillRect" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="PdnGraphics.cs" Line="455">Correct the spelling of the unrecognized token 'FillRect' in the literal '"FillRect returned zero"'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GetRegionScans(System.IntPtr,System.Drawing.Rectangle[]&amp;,System.Int32&amp;)" Kind="Method" Static="True" Accessibility="Assembly" ExternallyVisible="False">
+           <Messages>
+            <Message Id="GetLastError" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="PdnGraphics.cs" Line="219">Correct the spelling of the unrecognized token 'GetLastError' in the literal '", GetLastError() = "'.</Issue>
+            </Message>
+            <Message Id="GetRegionData" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="PdnGraphics.cs" Line="219">Correct the spelling of the unrecognized token 'GetRegionData' in the literal '"GetRegionData returned "'.</Issue>
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="PdnGraphics.cs" Line="242">Correct the spelling of the unrecognized token 'GetRegionData' in the literal '"SafeNativeMethods.GetRegionData returned 0"'.</Issue>
+            </Message>
+            <Message Id="SafeNativeMethods" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="PdnGraphics.cs" Line="242">Correct the spelling of the unrecognized token 'SafeNativeMethods' in the literal '"SafeNativeMethods.GetRegionData returned 0"'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Processor" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#ApproximateSpeedMhz" Kind="Property" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Mhz" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="Processor.cs" Line="285">Correct the spelling of 'Mhz' in member name 'Processor.ApproximateSpeedMhz' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ConcreteLogicalCpuCount" Kind="Property" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Cpu" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="Processor.cs" Line="270">Correct the spelling of 'Cpu' in member name 'Processor.ConcreteLogicalCpuCount' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#CpuName" Kind="Property" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Cpu" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="Processor.cs" Line="218">Correct the spelling of 'Cpu' in member name 'Processor.CpuName' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GetCpuName()" Kind="Method" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="GetLastError" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="Processor.cs" Line="124">Correct the spelling of the unrecognized token 'GetLastError' in the literal '"SetupDiEnumDeviceInfo returned false, GetLastError() = "'.</Issue>
+            </Message>
+            <Message Id="SetupDiEnumDeviceInfo" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="Processor.cs" Line="124">Correct the spelling of the unrecognized token 'SetupDiEnumDeviceInfo' in the literal '"SetupDiEnumDeviceInfo returned false, GetLastError() = "'.</Issue>
+            </Message>
+            <Message Id="SetupDiGetClassDevsW" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="Processor.cs" Line="101">Correct the spelling of the unrecognized token 'SetupDiGetClassDevsW' in the literal '"SetupDiGetClassDevsW returned INVALID_HANDLE_VALUE"'.</Issue>
+            </Message>
+            <Message Id="SetupDiGetDeviceInstanceIdW" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="Processor.cs" Line="138">Correct the spelling of the unrecognized token 'SetupDiGetDeviceInstanceIdW' in the literal '"SetupDiGetDeviceInstanceIdW(1) returned false, but also 0 for lengthReq"'.</Issue>
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="Processor.cs" Line="133">Correct the spelling of the unrecognized token 'SetupDiGetDeviceInstanceIdW' in the literal '"SetupDiGetDeviceInstanceIdW(1) returned true"'.</Issue>
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="Processor.cs" Line="154">Correct the spelling of the unrecognized token 'SetupDiGetDeviceInstanceIdW' in the literal '"SetupDiGetDeviceInstanceIdW(2) returned false"'.</Issue>
+            </Message>
+            <Message Id="lengthReq" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="Processor.cs" Line="138">Correct the spelling of the unrecognized token 'lengthReq' in the literal '"SetupDiGetDeviceInstanceIdW(1) returned false, but also 0 for lengthReq"'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#LogicalCpuCount" Kind="Property" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Cpu" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="Processor.cs" Line="243">Correct the spelling of 'Cpu' in member name 'Processor.LogicalCpuCount' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="ProcessorFeature" Kind="Enum" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="FlagsEnumsShouldHavePluralNames" Category="Microsoft.Naming" CheckId="CA1714" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="Breaking">
+           <Issue Certainty="75" Level="Error">If enumeration name 'ProcessorFeature' is singular, change it to a plural form.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="PropertyItem2" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#GetProperty(System.String,System.String)" Kind="Method" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="System.String.IndexOf(System.String)" TypeName="SpecifyStringComparison" Category="Microsoft.Globalization" CheckId="CA1307" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="PropertyItem2.cs" Line="126">Because the behavior of 'string.IndexOf(string)' could vary based on the current user's locale settings, replace this call in 'PropertyItem2.GetProperty(string, string)' with a call to 'string.IndexOf(string, StringComparison)'. If the result of 'string.IndexOf(string, StringComparison)' will be displayed to the user, such as when sorting a list of items for display in a list box, specify 'StringComparison.CurrentCulture' or 'StringComparison.CurrentCultureIgnoreCase' as the 'StringComparison' parameter. If comparing case-insensitive identifiers, such as file paths, environment variables, or registry keys and values, specify 'StringComparison.OrdinalIgnoreCase'. Otherwise, if comparing case-sensitive identifiers, specify 'StringComparison.Ordinal'.</Issue>
+            </Message>
+            <Message Id="System.String.IndexOf(System.String,System.Int32)" TypeName="SpecifyStringComparison" Category="Microsoft.Globalization" CheckId="CA1307" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="PropertyItem2.cs" Line="127">Because the behavior of 'string.IndexOf(string, int)' could vary based on the current user's locale settings, replace this call in 'PropertyItem2.GetProperty(string, string)' with a call to 'string.IndexOf(string, int, StringComparison)'. If the result of 'string.IndexOf(string, int, StringComparison)' will be displayed to the user, such as when sorting a list of items for display in a list box, specify 'StringComparison.CurrentCulture' or 'StringComparison.CurrentCultureIgnoreCase' as the 'StringComparison' parameter. If comparing case-insensitive identifiers, such as file paths, environment variables, or registry keys and values, specify 'StringComparison.OrdinalIgnoreCase'. Otherwise, if comparing case-sensitive identifiers, specify 'StringComparison.Ordinal'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="RealParentWndProcDelegate" Kind="Delegate" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message Id="Proc" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="Breaking">
+           <Issue Name="Type" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Proc' in type name 'RealParentWndProcDelegate'.</Issue>
+          </Message>
+          <Message Id="Wnd" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="Breaking">
+           <Issue Name="Type" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Wnd' in type name 'RealParentWndProcDelegate'.</Issue>
+          </Message>
+          <Message Id="m" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="Breaking">
+           <Issue Name="DelegateParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">In delegate 'RealParentWndProcDelegate', consider providing a more meaningful name than parameter name 'm'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="ScanningAndPrinting" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Print(System.Windows.Forms.Control,System.String)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="System.String.Compare(System.String,System.String,System.Boolean)" TypeName="SpecifyStringComparison" Category="Microsoft.Globalization" CheckId="CA1307" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="ScanningAndPrinting.cs" Line="85">Because the behavior of 'string.Compare(string, string, bool)' could vary based on the current user's locale settings, replace this call in 'ScanningAndPrinting.Print(Control, string)' with a call to 'string.Compare(string, string, StringComparison)'. If the result of 'string.Compare(string, string, StringComparison)' will be displayed to the user, such as when sorting a list of items for display in a list box, specify 'StringComparison.CurrentCulture' or 'StringComparison.CurrentCultureIgnoreCase' as the 'StringComparison' parameter. If comparing case-insensitive identifiers, such as file paths, environment variables, or registry keys and values, specify 'StringComparison.OrdinalIgnoreCase'. Otherwise, if comparing case-sensitive identifiers, specify 'StringComparison.Ordinal'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Settings" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#SetStrings(System.Collections.Specialized.NameValueCollection)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="nvc" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="Settings.cs" Line="201">In method 'Settings.SetStrings(NameValueCollection)', correct the spelling of 'nvc' in parameter name 'nvc' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Shell" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#BrowseFolder(System.Windows.Forms.IWin32Window,System.String)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="ShellExecuteW" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="Shell.cs" Line="203">Correct the spelling of the unrecognized token 'ShellExecuteW' in the literal '"ShellExecuteW returned FALSE"'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ExecRequireNonAdmin(System.Windows.Forms.IWin32Window,System.String,System.String,System.IntPtr&amp;)" Kind="Method" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="DuplicateTokenEx" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="Shell.cs" Line="475">Correct the spelling of the unrecognized token 'DuplicateTokenEx' in the literal '"DuplicateTokenEx() returned FALSE"'.</Issue>
+            </Message>
+            <Message Id="FindWindowW" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="Shell.cs" Line="439">Correct the spelling of the unrecognized token 'FindWindowW' in the literal '"FindWindowW() returned NULL"'.</Issue>
+            </Message>
+            <Message Id="GetWindowThreadProcessId" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="Shell.cs" Line="446">Correct the spelling of the unrecognized token 'GetWindowThreadProcessId' in the literal '"GetWindowThreadProcessId returned 0"'.</Issue>
+            </Message>
+            <Message Id="OpenProcess" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="Shell.cs" Line="452">Correct the spelling of the unrecognized token 'OpenProcess' in the literal '"OpenProcess() returned NULL"'.</Issue>
+            </Message>
+            <Message Id="OpenProcessToken" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="Shell.cs" Line="462">Correct the spelling of the unrecognized token 'OpenProcessToken' in the literal '"OpenProcessToken() returned FALSE"'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Execute(System.Windows.Forms.IWin32Window,System.String,System.String,PaintDotNet.SystemLayer.ExecutePrivilege,PaintDotNet.SystemLayer.ExecuteWaitType)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="ExecuteHandoff" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="Shell.cs" Line="365">Correct the spelling of the unrecognized token 'ExecuteHandoff' in the literal '"ExecuteHandoff failed"'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ReplaceMissingFiles(System.String[])" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="PdnRepair" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="Shell.cs" Line="70">Correct the spelling of the unrecognized token 'PdnRepair' in the literal '"Paint.NET has detected that some important installation files are missing. Repai..."'.</Issue>
+            </Message>
+            <Message Id="skipRepairAttempt" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="Shell.cs" Line="100">Correct the spelling of the unrecognized token 'skipRepairAttempt' in the literal '"*** Since this is a DEBUG build, you should probably add /skipRepairAttempt to t..."'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#RestartApplication()" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="SetHandleInformation" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="Shell.cs" Line="668">Correct the spelling of the unrecognized token 'SetHandleInformation' in the literal '"SetHandleInformation() returned false"'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="SingleInstanceManager" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.ctor(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="CreateFileMappingW" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="SingleInstaceManager.cs" Line="243">Correct the spelling of the unrecognized token 'CreateFileMappingW' in the literal '"CreateFileMappingW() returned NULL ("'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#FilterMessage(System.Windows.Forms.Message&amp;)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="m" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="SingleInstaceManager.cs" Line="202">In method 'SingleInstanceManager.FilterMessage(ref Message)', consider providing a more meaningful name than parameter name 'm'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ReadHandleFromFromMappedFile()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="MapViewOfFile" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="SingleInstaceManager.cs" Line="302">Correct the spelling of the unrecognized token 'MapViewOfFile' in the literal '"MapViewOfFile() returned NULL ("'.</Issue>
+            </Message>
+            <Message Id="UnmapViewOfFile" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="SingleInstaceManager.cs" Line="319">Correct the spelling of the unrecognized token 'UnmapViewOfFile' in the literal '"UnmapViewOfFile() returned FALSE ("'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#WriteHandleValueToMappedFile(System.IntPtr)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="MapViewOfFile" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="SingleInstaceManager.cs" Line="265">Correct the spelling of the unrecognized token 'MapViewOfFile' in the literal '"MapViewOfFile() returned NULL ("'.</Issue>
+            </Message>
+            <Message Id="UnmapViewOfFile" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="SingleInstaceManager.cs" Line="283">Correct the spelling of the unrecognized token 'UnmapViewOfFile' in the literal '"UnmapViewOfFile() returned FALSE ("'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="ThreadBackground" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.ctor(PaintDotNet.SystemLayer.ThreadBackgroundFlags)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="SetThreadPriority" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="ThreadBackground.cs" Line="55">Correct the spelling of the unrecognized token 'SetThreadPriority' in the literal '"SetThreadPriority(THREAD_MODE_BACKGROUND_BEGIN) returned FALSE"'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Dispose(System.Boolean)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="SetThreadPriority" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="ThreadBackground.cs" Line="100">Correct the spelling of the unrecognized token 'SetThreadPriority' in the literal '"SetThreadPriority(THREAD_MODE_BACKGROUND_END) returned FALSE"'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Finalize()" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RemoveEmptyFinalizers" Category="Microsoft.Performance" CheckId="CA1821" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="ThreadBackground.cs" Line="65">'ThreadBackground' implements a finalizer that only calls conditionally emitted methods or the base type finalizer. Remove the finalizer or ensure that it is only conditionally compiled into the assembly. If this violation occurs against a finalizer that is entirely wrapped in a conditionally-emitted block of code, suppress this message.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="ThreadBackgroundFlags" Kind="Enum" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Cpu" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Cpu" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Cpu' in member name 'ThreadBackgroundFlags.Cpu' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Timing" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.ctor()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="QueryPerformanceFrequency" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="Timing.cs" Line="69">Correct the spelling of the unrecognized token 'QueryPerformanceFrequency' in the literal '"QueryPerformanceFrequency returned false"'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="ToolStripEx" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#TextBox_Leave(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="ToolStripEx.cs" Line="182">'ToolStripEx.TextBox_Leave(object, EventArgs)' appears to have no upstream public or protected callers.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="UI" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#DetermineVisualStyleClassImpl()" Kind="Method" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="System.String.Compare(System.String,System.String,System.StringComparison)" TypeName="UseOrdinalStringComparison" Category="Microsoft.Globalization" CheckId="CA1309" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="NonBreaking">
+             <Issue Name="StringComparison" Certainty="75" Level="Error" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="UI.cs" Line="550">'UI.DetermineVisualStyleClassImpl()' passes 'StringComparison.InvariantCulture' as the 'StringComparison' parameter to 'string.Compare(string, string, StringComparison)'. To perform a non-linguistic comparison, specify 'StringComparison.Ordinal' or 'StringComparison.OrdinalIgnoreCase' instead.</Issue>
+             <Issue Name="StringComparison" Certainty="75" Level="Error" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="UI.cs" Line="550">'UI.DetermineVisualStyleClassImpl()' passes 'StringComparison.InvariantCulture' as the 'StringComparison' parameter to 'string.Compare(string, string, StringComparison)'. To perform a non-linguistic comparison, specify 'StringComparison.Ordinal' or 'StringComparison.OrdinalIgnoreCase' instead.</Issue>
+             <Issue Name="StringComparison" Certainty="75" Level="Error" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="UI.cs" Line="555">'UI.DetermineVisualStyleClassImpl()' passes 'StringComparison.InvariantCulture' as the 'StringComparison' parameter to 'string.Compare(string, string, StringComparison)'. To perform a non-linguistic comparison, specify 'StringComparison.Ordinal' or 'StringComparison.OrdinalIgnoreCase' instead.</Issue>
+             <Issue Name="StringComparison" Certainty="75" Level="Error" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="UI.cs" Line="555">'UI.DetermineVisualStyleClassImpl()' passes 'StringComparison.InvariantCulture' as the 'StringComparison' parameter to 'string.Compare(string, string, StringComparison)'. To perform a non-linguistic comparison, specify 'StringComparison.Ordinal' or 'StringComparison.OrdinalIgnoreCase' instead.</Issue>
+             <Issue Name="StringComparison" Certainty="75" Level="Error" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="UI.cs" Line="558">'UI.DetermineVisualStyleClassImpl()' passes 'StringComparison.InvariantCulture' as the 'StringComparison' parameter to 'string.Compare(string, string, StringComparison)'. To perform a non-linguistic comparison, specify 'StringComparison.Ordinal' or 'StringComparison.OrdinalIgnoreCase' instead.</Issue>
+             <Issue Name="StringComparison" Certainty="75" Level="Error" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="UI.cs" Line="558">'UI.DetermineVisualStyleClassImpl()' passes 'StringComparison.InvariantCulture' as the 'StringComparison' parameter to 'string.Compare(string, string, StringComparison)'. To perform a non-linguistic comparison, specify 'StringComparison.Ordinal' or 'StringComparison.OrdinalIgnoreCase' instead.</Issue>
+             <Issue Name="StringComparison" Certainty="75" Level="Error" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="UI.cs" Line="558">'UI.DetermineVisualStyleClassImpl()' passes 'StringComparison.InvariantCulture' as the 'StringComparison' parameter to 'string.Compare(string, string, StringComparison)'. To perform a non-linguistic comparison, specify 'StringComparison.Ordinal' or 'StringComparison.OrdinalIgnoreCase' instead.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#DisableCloseBox(System.Windows.Forms.IWin32Window)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="DrawMenuBar" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="UI.cs" Line="650">Correct the spelling of the unrecognized token 'DrawMenuBar' in the literal '"DrawMenuBar returned FALSE"'.</Issue>
+            </Message>
+            <Message Id="GetSystemMenu" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="UI.cs" Line="639">Correct the spelling of the unrecognized token 'GetSystemMenu' in the literal '"GetSystemMenu() returned NULL"'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#DrawCommandButton(System.Drawing.Graphics,System.Windows.Forms.VisualStyles.PushButtonState,System.Drawing.Rectangle,System.Drawing.Color,System.Windows.Forms.Control)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="g" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="UI.cs" Line="174">In method 'UI.DrawCommandButton(Graphics, PushButtonState, Rectangle, Color, Control)', consider providing a more meaningful name than parameter name 'g'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GetXScaleFactor()" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="InitScaling" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="UI.cs" Line="152">Correct the spelling of the unrecognized token 'InitScaling' in the literal '"Must call InitScaling() first"'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GetYScaleFactor()" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="InitScaling" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="UI.cs" Line="162">Correct the spelling of the unrecognized token 'InitScaling' in the literal '"Must call InitScaling() first"'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#HideHorizontalScrollBar(System.Windows.Forms.Control)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="c" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="UI.cs" Line="600">In method 'UI.HideHorizontalScrollBar(Control)', consider providing a more meaningful name than parameter name 'c'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#InitScaling(System.Windows.Forms.Control)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="c" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="UI.cs" Line="111">In method 'UI.InitScaling(Control)', consider providing a more meaningful name than parameter name 'c'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ResumeControlPainting(System.Windows.Forms.Control)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="SuspendControlPainting" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="UI.cs" Line="373">Correct the spelling of the unrecognized token 'SuspendControlPainting' in the literal '"There was no previous matching SuspendControlPainting() for this control"'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ScalePoint(System.Drawing.Point)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="pt" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="UI.cs" Line="144">In method 'UI.ScalePoint(Point)', correct the spelling of 'pt' in parameter name 'pt' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="VistaFileOpenDialog" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#CreateLocalCopyFromIStreamSource(PaintDotNet.SystemLayer.NativeInterfaces+IShellItem,PaintDotNet.SystemLayer.IFileTransferProgressEvents,System.String&amp;)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="IStream" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="VistaFileOpenDialog.cs" Line="440">Correct the spelling of the unrecognized token 'IStream' in the literal '"IStream::Read() reported that more bytes were read than were in the file"'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="WaitHandleArray" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#AreAllSignaled(System.UInt32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="ms" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="WaitHandleArray.cs" Line="101">In method 'WaitHandleArray.AreAllSignaled(uint)', correct the spelling of 'ms' in parameter name 'msTimeout' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Item[System.Int32]" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Accessors>
+            <Accessor Name="#set_Item(System.Int32,System.Threading.WaitHandle)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+             <Messages>
+              <Message Id="System.Runtime.InteropServices.SafeHandle.DangerousGetHandle" TypeName="AvoidCallingProblematicMethods" Category="Microsoft.Reliability" CheckId="CA2001" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="NonBreaking">
+               <Issue Name="System.Runtime.InteropServices.SafeHandle.DangerousGetHandle" Certainty="75" Level="Error" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer" File="WaitHandleArray.cs" Line="52">Remove the call to SafeHandle.DangerousGetHandle from 'WaitHandleArray.this.set(int, WaitHandle)'.</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="PaintDotNet.SystemLayer.GpcWrapper">
+       <Types>
+        <Type Name="Polygon" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#Clip(System.Drawing.Drawing2D.CombineMode,PaintDotNet.SystemLayer.GpcWrapper.Polygon)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer\GpcWrapper" File="Polygon.cs" Line="92">'Polygon.Clip(CombineMode, Polygon)' appears to have no upstream public or protected callers.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="VertexList" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#.ctor(PaintDotNet.SystemLayer.GpcWrapper.Vertex[])" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer\GpcWrapper" File="VertexList.cs" Line="27">'VertexList.VertexList(Vertex[])' appears to have no upstream public or protected callers.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#.ctor(PaintDotNet.SystemLayer.GpcWrapper.Vertex[],System.Boolean)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer\GpcWrapper" File="VertexList.cs" Line="31">'VertexList.VertexList(Vertex[], bool)' appears to have no upstream public or protected callers.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ToGraphicsPath()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer\GpcWrapper" File="VertexList.cs" Line="54">'VertexList.ToGraphicsPath()' appears to have no upstream public or protected callers.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#TristripToGraphicsPath()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2024-02-21 09:32:33Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\SystemLayer\GpcWrapper" File="VertexList.cs" Line="71">'VertexList.TristripToGraphicsPath()' appears to have no upstream public or protected callers.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="AvoidCallingProblematicMethods" Category="Microsoft.Reliability" CheckId="CA2001">
+   <Name>Avoid calling problematic methods</Name>
+   <Description>Avoid making unnecessary and potentially dangerous method calls.</Description>
+   <Resolution Name="System.Runtime.InteropServices.SafeHandle.DangerousGetHandle">Remove the call to SafeHandle.DangerousGetHandle from {0}.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/bb385973.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Error</MessageLevel>
+   <File Name="reliabilityrules.dll" Version="16.0.0.0" />
+  </Rule>
+  <Rule TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811">
+   <Name>Avoid uncalled private code</Name>
+   <Description>There is uncalled code that is not externally visible and is not a known runtime entry point. If this violation fires in error, please send a problem report to the Visual Studio Code Analysis team.</Description>
+   <Resolution Name="Default">{0} appears to have no upstream public or protected callers.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182264.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="performancerules.dll" Version="16.0.0.0" />
+  </Rule>
+  <Rule TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702">
+   <Name>Compound words should be cased correctly</Name>
+   <Description>Avoid creating compound words from terms which exist in the dictionary as discrete terms. Do not create a compound word such as 'StopWatch' or 'PopUp'. These terms are recognized in the dictionary and should be cased as 'Stopwatch' and 'Popup'.</Description>
+   <Resolution Name="MemberParameterShouldBeDiscreteTerm">In member {0}, the compound word '{1}' in parameter name {2} exists as a discrete term. If your usage is intended to be single word, case it as '{3}' or strip the first token entirely if it represents any sort of Hungarian notation.</Resolution>
+   <Resolution Name="MemberShouldBeDiscreteTerm">The compound word '{0}' in member name {1} exists as a discrete term. If your usage is intended to be single word, case it as '{2}' or strip the first token entirely if it represents any sort of Hungarian notation.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/bb264474.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="80">Error</MessageLevel>
+   <File Name="namingrules.dll" Version="16.0.0.0" />
+  </Rule>
+  <Rule TypeName="FlagsEnumsShouldHavePluralNames" Category="Microsoft.Naming" CheckId="CA1714">
+   <Name>Flags enums should have plural names</Name>
+   <Description>An enumeration marked with FlagsAttribute should have a plural name.</Description>
+   <Resolution Name="Default">If enumeration name {0} is singular, change it to a plural form.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/bb264486.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Error</MessageLevel>
+   <File Name="namingrules.dll" Version="16.0.0.0" />
+  </Rule>
+  <Rule TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704">
+   <Name>Identifiers should be spelled correctly</Name>
+   <Description>The individual words that make up an identifier should not be abbreviated and should be spelled correctly. If this rule generates a false positive on a term that should be recognized, add the word to the FxCop custom dictionary.</Description>
+   <Resolution Name="DelegateParameterMoreMeaningfulName">In delegate {0}, consider providing a more meaningful name than parameter name {1}.</Resolution>
+   <Resolution Name="Member">Correct the spelling of '{0}' in member name {1} or remove it entirely if it represents any sort of Hungarian notation.</Resolution>
+   <Resolution Name="MemberParameter">In method {0}, correct the spelling of '{1}' in parameter name {2} or remove it entirely if it represents any sort of Hungarian notation.</Resolution>
+   <Resolution Name="MemberParameterMoreMeaningfulName">In method {0}, consider providing a more meaningful name than parameter name {1}.</Resolution>
+   <Resolution Name="Type">Correct the spelling of '{0}' in type name {1}.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/bb264492.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">CriticalWarning</MessageLevel>
+   <File Name="namingrules.dll" Version="16.0.0.0" />
+  </Rule>
+  <Rule TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204">
+   <Name>Literals should be spelled correctly</Name>
+   <Description>This rule parses the literal string into words, tokenizing compound words, and checks the spelling of each word/token.</Description>
+   <Resolution Name="Default">Correct the spelling of the unrecognized token '{0}' in the literal '{1}'.</Resolution>
+   <Owner>RuleOwner</Owner>
+   <Url>http://msdn.microsoft.com/library/bb264488.aspx</Url>
+   <Email />
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="dataflowrules.dll" Version="16.0.0.0" />
+  </Rule>
+  <Rule TypeName="RemoveEmptyFinalizers" Category="Microsoft.Performance" CheckId="CA1821">
+   <Name>Remove empty finalizers</Name>
+   <Description>Finalizers should be avoided where possible, to avoid the additional performance overhead involved in tracking object lifetime.</Description>
+   <Resolution Name="Default">{0} implements a finalizer that only calls conditionally emitted methods or the base type finalizer. Remove the finalizer or ensure that it is only conditionally compiled into the assembly. If this violation occurs against a finalizer that is entirely wrapped in a conditionally-emitted block of code, suppress this message.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/bb264476.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="performancerules.dll" Version="16.0.0.0" />
+  </Rule>
+  <Rule TypeName="SpecifyStringComparison" Category="Microsoft.Globalization" CheckId="CA1307">
+   <Name>Specify StringComparison</Name>
+   <Description>If an overload exists that takes a StringComparison argument, it should always be called in favor of an overload that does not.</Description>
+   <Resolution Name="Default">Because the behavior of {0} could vary based on the current user's locale settings, replace this call in {1} with a call to {2}. If the result of {2} will be displayed to the user, such as when sorting a list of items for display in a list box, specify 'StringComparison.CurrentCulture' or 'StringComparison.CurrentCultureIgnoreCase' as the 'StringComparison' parameter. If comparing case-insensitive identifiers, such as file paths, environment variables, or registry keys and values, specify 'StringComparison.OrdinalIgnoreCase'. Otherwise, if comparing case-sensitive identifiers, specify 'StringComparison.Ordinal'.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/bb386080.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="globalizationrules.dll" Version="16.0.0.0" />
+  </Rule>
+  <Rule TypeName="UseOrdinalStringComparison" Category="Microsoft.Globalization" CheckId="CA1309">
+   <Name>Use ordinal StringComparison</Name>
+   <Description>For non-linguistic comparisons, StringComparison.Ordinal or StringComparison.OrdinalIgnoreCase should be used instead of the linguistically-sensitive StringComparison.InvariantCulture.</Description>
+   <Resolution Name="StringComparison">{0} passes '{1}' as the 'StringComparison' parameter to {2}. To perform a non-linguistic comparison, specify 'StringComparison.Ordinal' or 'StringComparison.OrdinalIgnoreCase' instead.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/bb385972.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Error</MessageLevel>
+   <File Name="globalizationrules.dll" Version="16.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">Category</String>
+  <String Key="Certainty">Certainty</String>
+  <String Key="CollapseAll">Collapse All</String>
+  <String Key="CheckId">Check Id</String>
+  <String Key="Error">Error</String>
+  <String Key="Errors">error(s)</String>
+  <String Key="ExpandAll">Expand All</String>
+  <String Key="Help">Help</String>
+  <String Key="Line">Line</String>
+  <String Key="Messages">message(s)</String>
+  <String Key="LocationNotStoredInPdb">[Location not stored in Pdb]</String>
+  <String Key="Project">Project</String>
+  <String Key="Resolution">Resolution</String>
+  <String Key="Rule">Rule</String>
+  <String Key="RuleFile">Rule File</String>
+  <String Key="RuleDescription">Rule Description</String>
+  <String Key="Source">Source</String>
+  <String Key="Status">Status</String>
+  <String Key="Target">Target</String>
+  <String Key="Warning">Warning</String>
+  <String Key="Warnings">warning(s)</String>
+  <String Key="ReportTitle">Code Analysis Report</String>
+ </Localized>
+</FxCopReport>

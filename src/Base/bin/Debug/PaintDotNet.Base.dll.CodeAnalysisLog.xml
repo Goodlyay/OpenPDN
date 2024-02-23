@@ -1,0 +1,588 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="c:\program files (x86)\microsoft visual studio\2019\community\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<FxCopReport Version="16.0">
+ <Targets>
+  <Target Name="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Base\bin\Debug\PaintDotNet.Base.dll">
+   <Modules>
+    <Module Name="paintdotnet.base.dll">
+     <Namespaces>
+      <Namespace Name="PaintDotNet">
+       <Types>
+        <Type Name="Do" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Test`1(!!0,PaintDotNet.Function`2&lt;System.Boolean,!!0&gt;,PaintDotNet.Procedure`1&lt;!!0&gt;,PaintDotNet.Procedure`1&lt;!!0&gt;)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Fn" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:30Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Base" File="Do.cs" Line="21">In method 'Do.Test&lt;T&gt;(T, Function&lt;bool, T&gt;, Procedure&lt;T&gt;, Procedure&lt;T&gt;)', correct the spelling of 'Fn' in parameter name 'ifFalseFn' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Base" File="Do.cs" Line="21">In method 'Do.Test&lt;T&gt;(T, Function&lt;bool, T&gt;, Procedure&lt;T&gt;, Procedure&lt;T&gt;)', correct the spelling of 'Fn' in parameter name 'ifTrueFn' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Base" File="Do.cs" Line="21">In method 'Do.Test&lt;T&gt;(T, Function&lt;bool, T&gt;, Procedure&lt;T&gt;, Procedure&lt;T&gt;)', correct the spelling of 'Fn' in parameter name 'testFn' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Function`1" Kind="Delegate" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message Id="R" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:30Z" FixCategory="NonBreaking">
+           <Issue Name="TypeTypeParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">On type 'Function&lt;R&gt;', consider providing a more meaningful name than generic type parameter name 'R'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="Function`2" Kind="Delegate" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message Id="R" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:30Z" FixCategory="NonBreaking">
+           <Issue Name="TypeTypeParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">On type 'Function&lt;R, T&gt;', consider providing a more meaningful name than generic type parameter name 'R'.</Issue>
+          </Message>
+          <Message Id="t" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:30Z" FixCategory="Breaking">
+           <Issue Name="DelegateParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">In delegate 'Function&lt;R, T&gt;', consider providing a more meaningful name than parameter name 't'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="Function`3" Kind="Delegate" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message Id="R" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:30Z" FixCategory="NonBreaking">
+           <Issue Name="TypeTypeParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">On type 'Function&lt;R, T, U&gt;', consider providing a more meaningful name than generic type parameter name 'R'.</Issue>
+          </Message>
+          <Message Id="U" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:30Z" FixCategory="NonBreaking">
+           <Issue Name="TypeTypeParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">On type 'Function&lt;R, T, U&gt;', consider providing a more meaningful name than generic type parameter name 'U'.</Issue>
+          </Message>
+          <Message Id="t" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:30Z" FixCategory="Breaking">
+           <Issue Name="DelegateParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">In delegate 'Function&lt;R, T, U&gt;', consider providing a more meaningful name than parameter name 't'.</Issue>
+          </Message>
+          <Message Id="u" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:30Z" FixCategory="Breaking">
+           <Issue Name="DelegateParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">In delegate 'Function&lt;R, T, U&gt;', consider providing a more meaningful name than parameter name 'u'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="ISimpleCollection`2" Kind="Interface" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message Id="K" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:30Z" FixCategory="NonBreaking">
+           <Issue Name="TypeTypeParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">On type 'ISimpleCollection&lt;K, V&gt;', consider providing a more meaningful name than generic type parameter name 'K'.</Issue>
+          </Message>
+          <Message Id="V" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:30Z" FixCategory="NonBreaking">
+           <Issue Name="TypeTypeParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">On type 'ISimpleCollection&lt;K, V&gt;', consider providing a more meaningful name than generic type parameter name 'V'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="Pair" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Create`2(!!0,!!1)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="U" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:30Z" FixCategory="NonBreaking">
+             <Issue Name="MethodTypeParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Base" File="Pair.cs" Line="17">On method 'Pair.Create&lt;T, U&gt;(T, U)', consider providing a more meaningful name than generic type parameter name 'U'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Pair`2" Kind="Struct" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message Id="U" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:30Z" FixCategory="NonBreaking">
+           <Issue Name="TypeTypeParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">On type 'Pair&lt;T, U&gt;', consider providing a more meaningful name than generic type parameter name 'U'.</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#op_Equality(PaintDotNet.Pair`2&lt;!0,!1&gt;,PaintDotNet.Pair`2&lt;!0,!1&gt;)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="rhs" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:30Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Base" File="Pair`2.cs" Line="68">In method 'Pair&lt;T, U&gt;.operator ==(Pair&lt;T, U&gt;, Pair&lt;T, U&gt;)', correct the spelling of 'rhs' in parameter name 'rhs' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#op_Inequality(PaintDotNet.Pair`2&lt;!0,!1&gt;,PaintDotNet.Pair`2&lt;!0,!1&gt;)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="rhs" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:30Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Base" File="Pair`2.cs" Line="102">In method 'Pair&lt;T, U&gt;.operator !=(Pair&lt;T, U&gt;, Pair&lt;T, U&gt;)', correct the spelling of 'rhs' in parameter name 'rhs' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Procedure`1" Kind="Delegate" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message Id="t" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:30Z" FixCategory="Breaking">
+           <Issue Name="DelegateParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">In delegate 'Procedure&lt;T&gt;', consider providing a more meaningful name than parameter name 't'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="Procedure`2" Kind="Delegate" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message Id="U" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:30Z" FixCategory="NonBreaking">
+           <Issue Name="TypeTypeParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">On type 'Procedure&lt;T, U&gt;', consider providing a more meaningful name than generic type parameter name 'U'.</Issue>
+          </Message>
+          <Message Id="t" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:30Z" FixCategory="Breaking">
+           <Issue Name="DelegateParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">In delegate 'Procedure&lt;T, U&gt;', consider providing a more meaningful name than parameter name 't'.</Issue>
+          </Message>
+          <Message Id="u" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:30Z" FixCategory="Breaking">
+           <Issue Name="DelegateParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">In delegate 'Procedure&lt;T, U&gt;', consider providing a more meaningful name than parameter name 'u'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="Procedure`3" Kind="Delegate" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message Id="U" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:30Z" FixCategory="NonBreaking">
+           <Issue Name="TypeTypeParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">On type 'Procedure&lt;T, U, V&gt;', consider providing a more meaningful name than generic type parameter name 'U'.</Issue>
+          </Message>
+          <Message Id="V" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:30Z" FixCategory="NonBreaking">
+           <Issue Name="TypeTypeParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">On type 'Procedure&lt;T, U, V&gt;', consider providing a more meaningful name than generic type parameter name 'V'.</Issue>
+          </Message>
+          <Message Id="t" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:30Z" FixCategory="Breaking">
+           <Issue Name="DelegateParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">In delegate 'Procedure&lt;T, U, V&gt;', consider providing a more meaningful name than parameter name 't'.</Issue>
+          </Message>
+          <Message Id="u" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:30Z" FixCategory="Breaking">
+           <Issue Name="DelegateParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">In delegate 'Procedure&lt;T, U, V&gt;', consider providing a more meaningful name than parameter name 'u'.</Issue>
+          </Message>
+          <Message Id="v" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:30Z" FixCategory="Breaking">
+           <Issue Name="DelegateParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">In delegate 'Procedure&lt;T, U, V&gt;', consider providing a more meaningful name than parameter name 'v'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="Procedure`4" Kind="Delegate" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message Id="U" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:30Z" FixCategory="NonBreaking">
+           <Issue Name="TypeTypeParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">On type 'Procedure&lt;T, U, V, W&gt;', consider providing a more meaningful name than generic type parameter name 'U'.</Issue>
+          </Message>
+          <Message Id="V" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:30Z" FixCategory="NonBreaking">
+           <Issue Name="TypeTypeParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">On type 'Procedure&lt;T, U, V, W&gt;', consider providing a more meaningful name than generic type parameter name 'V'.</Issue>
+          </Message>
+          <Message Id="W" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:30Z" FixCategory="NonBreaking">
+           <Issue Name="TypeTypeParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">On type 'Procedure&lt;T, U, V, W&gt;', consider providing a more meaningful name than generic type parameter name 'W'.</Issue>
+          </Message>
+          <Message Id="t" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:30Z" FixCategory="Breaking">
+           <Issue Name="DelegateParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">In delegate 'Procedure&lt;T, U, V, W&gt;', consider providing a more meaningful name than parameter name 't'.</Issue>
+          </Message>
+          <Message Id="u" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:30Z" FixCategory="Breaking">
+           <Issue Name="DelegateParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">In delegate 'Procedure&lt;T, U, V, W&gt;', consider providing a more meaningful name than parameter name 'u'.</Issue>
+          </Message>
+          <Message Id="v" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:30Z" FixCategory="Breaking">
+           <Issue Name="DelegateParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">In delegate 'Procedure&lt;T, U, V, W&gt;', consider providing a more meaningful name than parameter name 'v'.</Issue>
+          </Message>
+          <Message Id="w" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:30Z" FixCategory="Breaking">
+           <Issue Name="DelegateParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">In delegate 'Procedure&lt;T, U, V, W&gt;', consider providing a more meaningful name than parameter name 'w'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="Quadruple" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Create`4(!!0,!!1,!!2,!!3)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="U" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:30Z" FixCategory="NonBreaking">
+             <Issue Name="MethodTypeParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Base" File="Quadruple.cs" Line="17">On method 'Quadruple.Create&lt;T, U, V, W&gt;(T, U, V, W)', consider providing a more meaningful name than generic type parameter name 'U'.</Issue>
+            </Message>
+            <Message Id="V" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:30Z" FixCategory="NonBreaking">
+             <Issue Name="MethodTypeParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Base" File="Quadruple.cs" Line="17">On method 'Quadruple.Create&lt;T, U, V, W&gt;(T, U, V, W)', consider providing a more meaningful name than generic type parameter name 'V'.</Issue>
+            </Message>
+            <Message Id="W" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:30Z" FixCategory="NonBreaking">
+             <Issue Name="MethodTypeParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Base" File="Quadruple.cs" Line="17">On method 'Quadruple.Create&lt;T, U, V, W&gt;(T, U, V, W)', consider providing a more meaningful name than generic type parameter name 'W'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Quadruple`4" Kind="Struct" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message Id="U" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:30Z" FixCategory="NonBreaking">
+           <Issue Name="TypeTypeParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">On type 'Quadruple&lt;T, U, V, W&gt;', consider providing a more meaningful name than generic type parameter name 'U'.</Issue>
+          </Message>
+          <Message Id="V" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:30Z" FixCategory="NonBreaking">
+           <Issue Name="TypeTypeParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">On type 'Quadruple&lt;T, U, V, W&gt;', consider providing a more meaningful name than generic type parameter name 'V'.</Issue>
+          </Message>
+          <Message Id="W" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:30Z" FixCategory="NonBreaking">
+           <Issue Name="TypeTypeParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">On type 'Quadruple&lt;T, U, V, W&gt;', consider providing a more meaningful name than generic type parameter name 'W'.</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#op_Equality(PaintDotNet.Quadruple`4&lt;!0,!1,!2,!3&gt;,PaintDotNet.Quadruple`4&lt;!0,!1,!2,!3&gt;)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="rhs" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:30Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Base" File="Quadruple`4.cs" Line="106">In method 'Quadruple&lt;T, U, V, W&gt;.operator ==(Quadruple&lt;T, U, V, W&gt;, Quadruple&lt;T, U, V, W&gt;)', correct the spelling of 'rhs' in parameter name 'rhs' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#op_Inequality(PaintDotNet.Quadruple`4&lt;!0,!1,!2,!3&gt;,PaintDotNet.Quadruple`4&lt;!0,!1,!2,!3&gt;)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="rhs" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:30Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Base" File="Quadruple`4.cs" Line="168">In method 'Quadruple&lt;T, U, V, W&gt;.operator !=(Quadruple&lt;T, U, V, W&gt;, Quadruple&lt;T, U, V, W&gt;)', correct the spelling of 'rhs' in parameter name 'rhs' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Triple" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Create`3(!!0,!!1,!!2)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="U" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:30Z" FixCategory="NonBreaking">
+             <Issue Name="MethodTypeParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Base" File="Triple.cs" Line="17">On method 'Triple.Create&lt;T, U, V&gt;(T, U, V)', consider providing a more meaningful name than generic type parameter name 'U'.</Issue>
+            </Message>
+            <Message Id="V" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:30Z" FixCategory="NonBreaking">
+             <Issue Name="MethodTypeParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Base" File="Triple.cs" Line="17">On method 'Triple.Create&lt;T, U, V&gt;(T, U, V)', consider providing a more meaningful name than generic type parameter name 'V'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Triple`3" Kind="Struct" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message Id="U" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:30Z" FixCategory="NonBreaking">
+           <Issue Name="TypeTypeParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">On type 'Triple&lt;T, U, V&gt;', consider providing a more meaningful name than generic type parameter name 'U'.</Issue>
+          </Message>
+          <Message Id="V" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:30Z" FixCategory="NonBreaking">
+           <Issue Name="TypeTypeParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">On type 'Triple&lt;T, U, V&gt;', consider providing a more meaningful name than generic type parameter name 'V'.</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#CreateComparer(System.Collections.Generic.IEqualityComparer`1&lt;!0&gt;,System.Collections.Generic.IEqualityComparer`1&lt;!1&gt;,System.Collections.Generic.IEqualityComparer`1&lt;!2&gt;)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="t" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:30Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Base" File="Triple`3.cs" Line="176">In method 'Triple&lt;T, U, V&gt;.CreateComparer(IEqualityComparer&lt;T&gt;, IEqualityComparer&lt;U&gt;, IEqualityComparer&lt;V&gt;)', correct the spelling of 't' in parameter name 'tComparer' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message Id="u" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:30Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Base" File="Triple`3.cs" Line="176">In method 'Triple&lt;T, U, V&gt;.CreateComparer(IEqualityComparer&lt;T&gt;, IEqualityComparer&lt;U&gt;, IEqualityComparer&lt;V&gt;)', correct the spelling of 'u' in parameter name 'uComparer' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message Id="v" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:30Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Base" File="Triple`3.cs" Line="176">In method 'Triple&lt;T, U, V&gt;.CreateComparer(IEqualityComparer&lt;T&gt;, IEqualityComparer&lt;U&gt;, IEqualityComparer&lt;V&gt;)', correct the spelling of 'v' in parameter name 'vComparer' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#op_Equality(PaintDotNet.Triple`3&lt;!0,!1,!2&gt;,PaintDotNet.Triple`3&lt;!0,!1,!2&gt;)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="rhs" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:30Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Base" File="Triple`3.cs" Line="88">In method 'Triple&lt;T, U, V&gt;.operator ==(Triple&lt;T, U, V&gt;, Triple&lt;T, U, V&gt;)', correct the spelling of 'rhs' in parameter name 'rhs' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#op_Inequality(PaintDotNet.Triple`3&lt;!0,!1,!2&gt;,PaintDotNet.Triple`3&lt;!0,!1,!2&gt;)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="rhs" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:30Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Base" File="Triple`3.cs" Line="136">In method 'Triple&lt;T, U, V&gt;.operator !=(Triple&lt;T, U, V&gt;, Triple&lt;T, U, V&gt;)', correct the spelling of 'rhs' in parameter name 'rhs' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Vector`1" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Add(!0)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="pt" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:30Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Base" File="Vector`1.cs" Line="41">In method 'Vector&lt;T&gt;.Add(T)', correct the spelling of 'pt' in parameter name 'pt' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Set(System.Int32,!0)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="pt" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:30Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Base" File="Vector`1.cs" Line="102">In method 'Vector&lt;T&gt;.Set(int, T)', correct the spelling of 'pt' in parameter name 'pt' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="PaintDotNet.PropertySystem">
+       <Types>
+        <Type Name="BooleanProperty" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.ctor(System.Object,System.Boolean,System.Boolean,PaintDotNet.PropertySystem.ValueValidationFailureResult)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="vvf" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:30Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Base\PropertySystem" File="BooleanProperty.cs" Line="35">In method 'BooleanProperty.BooleanProperty(object, bool, bool, ValueValidationFailureResult)', correct the spelling of 'vvf' in parameter name 'vvfResult' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="DoubleProperty" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.ctor(System.Object,System.Double,System.Double,System.Double,System.Boolean,PaintDotNet.PropertySystem.ValueValidationFailureResult)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="vvf" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:30Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Base\PropertySystem" File="DoubleProperty.cs" Line="38">In method 'DoubleProperty.DoubleProperty(object, double, double, double, bool, ValueValidationFailureResult)', correct the spelling of 'vvf' in parameter name 'vvfResult' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="DoubleVectorProperty" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.ctor(System.Object,PaintDotNet.Pair`2&lt;System.Double,System.Double&gt;,PaintDotNet.Pair`2&lt;System.Double,System.Double&gt;,PaintDotNet.Pair`2&lt;System.Double,System.Double&gt;,System.Boolean,PaintDotNet.PropertySystem.ValueValidationFailureResult)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="vvf" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:30Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Base\PropertySystem" File="DoubleVectorProperty.cs" Line="38">In method 'DoubleVectorProperty.DoubleVectorProperty(object, Pair&lt;double, double&gt;, Pair&lt;double, double&gt;, Pair&lt;double, double&gt;, bool, ValueValidationFailureResult)', correct the spelling of 'vvf' in parameter name 'vvfResult' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Int32Property" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.ctor(System.Object,System.Int32,System.Int32,System.Int32,System.Boolean,PaintDotNet.PropertySystem.ValueValidationFailureResult)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="vvf" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:30Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Base\PropertySystem" File="Int32Property.cs" Line="40">In method 'Int32Property.Int32Property(object, int, int, int, bool, ValueValidationFailureResult)', correct the spelling of 'vvf' in parameter name 'vvfResult' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="PropertyCollection" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#CopyCompatibleValuesFrom(PaintDotNet.PropertySystem.PropertyCollection)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="src" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:30Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Base\PropertySystem" File="PropertyCollection.cs" Line="175">In method 'PropertyCollection.CopyCompatibleValuesFrom(PropertyCollection)', correct the spelling of 'src' in parameter name 'srcProps' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#CopyCompatibleValuesFrom(PaintDotNet.PropertySystem.PropertyCollection,System.Boolean)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="src" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:30Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Base\PropertySystem" File="PropertyCollection.cs" Line="180">In method 'PropertyCollection.CopyCompatibleValuesFrom(PropertyCollection, bool)', correct the spelling of 'src' in parameter name 'srcProps' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Initialize(System.Collections.Generic.IEnumerable`1&lt;PaintDotNet.PropertySystem.Property&gt;,System.Collections.Generic.IEnumerable`1&lt;PaintDotNet.PropertySystem.PropertyCollectionRule&gt;)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="properties" TypeName="VariableNamesShouldNotMatchFieldNames" Category="Microsoft.Maintainability" CheckId="CA1500" Status="Active" Created="2024-02-21 09:32:30Z" FixCategory="NonBreaking">
+             <Issue Name="Parameter" Certainty="95" Level="Error" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Base\PropertySystem" File="PropertyCollection.cs" Line="131">'properties', a parameter declared in 'PropertyCollection.Initialize(IEnumerable&lt;Property&gt;, IEnumerable&lt;PropertyCollectionRule&gt;)', has the same name as an instance field on the type. Change the name of one of these items.</Issue>
+            </Message>
+            <Message Id="rules" TypeName="VariableNamesShouldNotMatchFieldNames" Category="Microsoft.Maintainability" CheckId="CA1500" Status="Active" Created="2024-02-21 09:32:30Z" FixCategory="NonBreaking">
+             <Issue Name="Parameter" Certainty="95" Level="Error" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Base\PropertySystem" File="PropertyCollection.cs" Line="131">'rules', a parameter declared in 'PropertyCollection.Initialize(IEnumerable&lt;Property&gt;, IEnumerable&lt;PropertyCollectionRule&gt;)', has the same name as an instance field on the type. Change the name of one of these items.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="PropertyCollectionRule" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Initialize(PaintDotNet.PropertySystem.PropertyCollection)" Kind="Method" Static="False" Accessibility="Assembly" ExternallyVisible="False">
+           <Messages>
+            <Message Id="owner" TypeName="VariableNamesShouldNotMatchFieldNames" Category="Microsoft.Maintainability" CheckId="CA1500" Status="Active" Created="2024-02-21 09:32:30Z" FixCategory="NonBreaking">
+             <Issue Name="Parameter" Certainty="95" Level="Error" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Base\PropertySystem" File="PropertyCollectionRule.cs" Line="32">'owner', a parameter declared in 'PropertyCollectionRule.Initialize(PropertyCollection)', has the same name as an instance field on the type. Change the name of one of these items.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#VerifyInitialized()" Kind="Method" Static="False" Accessibility="Assembly" ExternallyVisible="False">
+           <Messages>
+            <Message Id="PropertyCollection" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2024-02-21 09:32:30Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Base\PropertySystem" File="PropertyCollectionRule.cs" Line="55">Correct the spelling of the unrecognized token 'PropertyCollection' in the literal '"This rule was never initialized into a PropertyCollection"'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="ReadOnlyBoundToBooleanRule" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#OnInitialized()" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="False">
+           <Messages>
+            <Message Id="System.String.Compare(System.String,System.String,System.StringComparison)" TypeName="UseOrdinalStringComparison" Category="Microsoft.Globalization" CheckId="CA1309" Status="Active" Created="2024-02-21 09:32:30Z" FixCategory="NonBreaking">
+             <Issue Name="StringComparison" Certainty="75" Level="Error" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Base\PropertySystem" File="ReadOnlyBoundToBooleanRule.cs" Line="42">'ReadOnlyBoundToBooleanRule.OnInitialized()' passes 'StringComparison.InvariantCulture' as the 'StringComparison' parameter to 'string.Compare(string, string, StringComparison)'. To perform a non-linguistic comparison, specify 'StringComparison.Ordinal' or 'StringComparison.OrdinalIgnoreCase' instead.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="ReadOnlyBoundToValueRule`2" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#OnInitialized()" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="False">
+           <Messages>
+            <Message Id="System.String.Compare(System.String,System.String,System.StringComparison)" TypeName="UseOrdinalStringComparison" Category="Microsoft.Globalization" CheckId="CA1309" Status="Active" Created="2024-02-21 09:32:30Z" FixCategory="NonBreaking">
+             <Issue Name="StringComparison" Certainty="75" Level="Error" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Base\PropertySystem" File="ReadOnlyBoundToValueRule`2.cs" Line="54">'ReadOnlyBoundToValueRule&lt;TValue, TProperty&gt;.OnInitialized()' passes 'StringComparison.InvariantCulture' as the 'StringComparison' parameter to 'string.Compare(string, string, StringComparison)'. To perform a non-linguistic comparison, specify 'StringComparison.Ordinal' or 'StringComparison.OrdinalIgnoreCase' instead.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="ScalarProperty`1" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#IsEqualTo(!0,!0)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="rhs" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:30Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Base\PropertySystem" File="ScalarProperty`1.cs" Line="80">In method 'ScalarProperty&lt;T&gt;.IsEqualTo(T, T)', correct the spelling of 'rhs' in parameter name 'rhs' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#IsEqualTo(PaintDotNet.PropertySystem.ScalarProperty`1&lt;!0&gt;)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="rhs" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:30Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Base\PropertySystem" File="ScalarProperty`1.cs" Line="70">In method 'ScalarProperty&lt;T&gt;.IsEqualTo(ScalarProperty&lt;T&gt;)', correct the spelling of 'rhs' in parameter name 'rhs' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#IsEqualTo(PaintDotNet.PropertySystem.ScalarProperty`1&lt;!0&gt;,PaintDotNet.PropertySystem.ScalarProperty`1&lt;!0&gt;)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="rhs" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:30Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Base\PropertySystem" File="ScalarProperty`1.cs" Line="75">In method 'ScalarProperty&lt;T&gt;.IsEqualTo(ScalarProperty&lt;T&gt;, ScalarProperty&lt;T&gt;)', correct the spelling of 'rhs' in parameter name 'rhs' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#IsGreaterThan(!0,!0)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="rhs" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:30Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Base\PropertySystem" File="ScalarProperty`1.cs" Line="65">In method 'ScalarProperty&lt;T&gt;.IsGreaterThan(T, T)', correct the spelling of 'rhs' in parameter name 'rhs' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#IsGreaterThan(PaintDotNet.PropertySystem.ScalarProperty`1&lt;!0&gt;)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="rhs" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:30Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Base\PropertySystem" File="ScalarProperty`1.cs" Line="55">In method 'ScalarProperty&lt;T&gt;.IsGreaterThan(ScalarProperty&lt;T&gt;)', correct the spelling of 'rhs' in parameter name 'rhs' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#IsGreaterThan(PaintDotNet.PropertySystem.ScalarProperty`1&lt;!0&gt;,PaintDotNet.PropertySystem.ScalarProperty`1&lt;!0&gt;)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="rhs" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:30Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Base\PropertySystem" File="ScalarProperty`1.cs" Line="60">In method 'ScalarProperty&lt;T&gt;.IsGreaterThan(ScalarProperty&lt;T&gt;, ScalarProperty&lt;T&gt;)', correct the spelling of 'rhs' in parameter name 'rhs' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#IsLessThan(!0,!0)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="rhs" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:30Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Base\PropertySystem" File="ScalarProperty`1.cs" Line="50">In method 'ScalarProperty&lt;T&gt;.IsLessThan(T, T)', correct the spelling of 'rhs' in parameter name 'rhs' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#IsLessThan(PaintDotNet.PropertySystem.ScalarProperty`1&lt;!0&gt;)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="rhs" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:30Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Base\PropertySystem" File="ScalarProperty`1.cs" Line="40">In method 'ScalarProperty&lt;T&gt;.IsLessThan(ScalarProperty&lt;T&gt;)', correct the spelling of 'rhs' in parameter name 'rhs' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#IsLessThan(PaintDotNet.PropertySystem.ScalarProperty`1&lt;!0&gt;,PaintDotNet.PropertySystem.ScalarProperty`1&lt;!0&gt;)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="rhs" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:30Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Base\PropertySystem" File="ScalarProperty`1.cs" Line="45">In method 'ScalarProperty&lt;T&gt;.IsLessThan(ScalarProperty&lt;T&gt;, ScalarProperty&lt;T&gt;)', correct the spelling of 'rhs' in parameter name 'rhs' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="StaticListChoiceProperty" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.ctor(System.Object,System.Object[],System.Int32,System.Boolean,PaintDotNet.PropertySystem.ValueValidationFailureResult)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="vvf" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:30Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Base\PropertySystem" File="StaticListChoiceProperty.cs" Line="45">In method 'StaticListChoiceProperty.StaticListChoiceProperty(object, object[], int, bool, ValueValidationFailureResult)', correct the spelling of 'vvf' in parameter name 'vvfResult' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="StringProperty" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.ctor(System.Object,System.String,System.Int32,System.Boolean,PaintDotNet.PropertySystem.ValueValidationFailureResult)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="vvf" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:30Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Base\PropertySystem" File="StringProperty.cs" Line="58">In method 'StringProperty.StringProperty(object, string, int, bool, ValueValidationFailureResult)', correct the spelling of 'vvf' in parameter name 'vvfResult' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="VectorProperty`1" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#IsEqualTo(PaintDotNet.Pair`2&lt;!0,!0&gt;,PaintDotNet.Pair`2&lt;!0,!0&gt;)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="rhs" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:30Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Base\PropertySystem" File="VectorProperty`1.cs" Line="122">In method 'VectorProperty&lt;T&gt;.IsEqualTo(Pair&lt;T, T&gt;, Pair&lt;T, T&gt;)', correct the spelling of 'rhs' in parameter name 'rhs' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#IsEqualTo(PaintDotNet.PropertySystem.VectorProperty`1&lt;!0&gt;)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="rhs" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:30Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Base\PropertySystem" File="VectorProperty`1.cs" Line="112">In method 'VectorProperty&lt;T&gt;.IsEqualTo(VectorProperty&lt;T&gt;)', correct the spelling of 'rhs' in parameter name 'rhs' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#IsEqualTo(PaintDotNet.PropertySystem.VectorProperty`1&lt;!0&gt;,PaintDotNet.PropertySystem.VectorProperty`1&lt;!0&gt;)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="rhs" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2024-02-21 09:32:30Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\Users\Goodly\Documents\GitHub\OpenPDN\src\Base\PropertySystem" File="VectorProperty`1.cs" Line="117">In method 'VectorProperty&lt;T&gt;.IsEqualTo(VectorProperty&lt;T&gt;, VectorProperty&lt;T&gt;)', correct the spelling of 'rhs' in parameter name 'rhs' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704">
+   <Name>Identifiers should be spelled correctly</Name>
+   <Description>The individual words that make up an identifier should not be abbreviated and should be spelled correctly. If this rule generates a false positive on a term that should be recognized, add the word to the FxCop custom dictionary.</Description>
+   <Resolution Name="DelegateParameterMoreMeaningfulName">In delegate {0}, consider providing a more meaningful name than parameter name {1}.</Resolution>
+   <Resolution Name="MemberParameter">In method {0}, correct the spelling of '{1}' in parameter name {2} or remove it entirely if it represents any sort of Hungarian notation.</Resolution>
+   <Resolution Name="MethodTypeParameterMoreMeaningfulName">On method {0}, consider providing a more meaningful name than generic type parameter name {1}.</Resolution>
+   <Resolution Name="TypeTypeParameterMoreMeaningfulName">On type {0}, consider providing a more meaningful name than generic type parameter name {1}.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/bb264492.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">CriticalWarning</MessageLevel>
+   <File Name="namingrules.dll" Version="16.0.0.0" />
+  </Rule>
+  <Rule TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204">
+   <Name>Literals should be spelled correctly</Name>
+   <Description>This rule parses the literal string into words, tokenizing compound words, and checks the spelling of each word/token.</Description>
+   <Resolution Name="Default">Correct the spelling of the unrecognized token '{0}' in the literal '{1}'.</Resolution>
+   <Owner>RuleOwner</Owner>
+   <Url>http://msdn.microsoft.com/library/bb264488.aspx</Url>
+   <Email />
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="dataflowrules.dll" Version="16.0.0.0" />
+  </Rule>
+  <Rule TypeName="UseOrdinalStringComparison" Category="Microsoft.Globalization" CheckId="CA1309">
+   <Name>Use ordinal StringComparison</Name>
+   <Description>For non-linguistic comparisons, StringComparison.Ordinal or StringComparison.OrdinalIgnoreCase should be used instead of the linguistically-sensitive StringComparison.InvariantCulture.</Description>
+   <Resolution Name="StringComparison">{0} passes '{1}' as the 'StringComparison' parameter to {2}. To perform a non-linguistic comparison, specify 'StringComparison.Ordinal' or 'StringComparison.OrdinalIgnoreCase' instead.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/bb385972.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Error</MessageLevel>
+   <File Name="globalizationrules.dll" Version="16.0.0.0" />
+  </Rule>
+  <Rule TypeName="VariableNamesShouldNotMatchFieldNames" Category="Microsoft.Maintainability" CheckId="CA1500">
+   <Name>Variable names should not match field names</Name>
+   <Description>Instance field and variable names should not be identical within the same scope.</Description>
+   <Resolution Name="Parameter">{0}, a parameter declared in {1}, has the same name as an instance field on the type. Change the name of one of these items.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182216.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="maintainabilityrules.dll" Version="16.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">Category</String>
+  <String Key="Certainty">Certainty</String>
+  <String Key="CollapseAll">Collapse All</String>
+  <String Key="CheckId">Check Id</String>
+  <String Key="Error">Error</String>
+  <String Key="Errors">error(s)</String>
+  <String Key="ExpandAll">Expand All</String>
+  <String Key="Help">Help</String>
+  <String Key="Line">Line</String>
+  <String Key="Messages">message(s)</String>
+  <String Key="LocationNotStoredInPdb">[Location not stored in Pdb]</String>
+  <String Key="Project">Project</String>
+  <String Key="Resolution">Resolution</String>
+  <String Key="Rule">Rule</String>
+  <String Key="RuleFile">Rule File</String>
+  <String Key="RuleDescription">Rule Description</String>
+  <String Key="Source">Source</String>
+  <String Key="Status">Status</String>
+  <String Key="Target">Target</String>
+  <String Key="Warning">Warning</String>
+  <String Key="Warnings">warning(s)</String>
+  <String Key="ReportTitle">Code Analysis Report</String>
+ </Localized>
+</FxCopReport>
